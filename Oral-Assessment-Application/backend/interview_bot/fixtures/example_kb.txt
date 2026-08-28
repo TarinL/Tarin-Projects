@@ -1,0 +1,2000 @@
+1.1 What Is Macroeconomics?
+Macroeconomics is the study of collections of people and firms and how their
+interactions through markets determine the overall economic activity in a coun-
+try or region. The other main area of economics, microeconomics, focuses on the
+study of individual people, firms, or markets. These two branches, however, are
+much closer than their standard separation into different courses would lead you
+to believe. Just as cosmologists who study black holes draw on concepts both large
+(general relativity) and small (quantum mechanics), macroeconomists look to indi-
+vidual behavior— which economists refer to as “microfoundations”—in creating
+their theories of aggregate economic activity. In this sense, macroeconomics is
+just one large black hole!
+One good way to get a sense of macroeconomics is to consider the questions
+it deals with, some of the most important in all of economics:
+• Why is the typical American today more than 10 times richer than the
+typical American a century ago?
+• Why is the American of today 50 times richer than the typical Ethiopian?
+Some of the data that motivate these first two questions are shown in
+Figure 1.1, a graph of GDP per person since 1870 for six countries.
+(GDP stands for gross domestic product, an overall measure of income
+that we will study in more detail in Chapter 2.)
+• How do we understand the global financial crisis, the Great Recession,
+and the European debt crisis of recent years? As shown in Figure 1.2, this
+latest recession has seen the largest sustained decline in employment in the
+United States in many decades. More generally, what causes recessions and
+booms in the overall economy?
+• What determines the rate of inflation; that is, what determines how
+rapidly prices are increasing in an economy? Why was inflation so high in
+much of the world in the 1970s, and why has it fallen so dramatically in
+many of the richest countries since the early 1980s? These facts are shown
+in Figure 1.3. Why do some countries experience hyperinflation, where
+the price level can explode and rise by a thousandfold or more, essentially
+rendering the currency worthless?
+• Why has the unemployment rate— the fraction of the labor force that
+would like to work but does not currently have a job— been nearly twice
+as high in Europe as in the United States the past two decades? Consider
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch01_002-017.indd 5 PAGE:
+95108_TXT_0005.p1.pdf
+Cyan, Yellow, Black
+FOLIO
+5
+SEQUENCE
+29
+18/11/19 11:51 AM
+6 | Chapter 1 Introduction to Macroeconomics
+As we will see in
+Chapter 2, per capita
+GDP is a useful, though
+imperfect, measure
+of economic welfare.
+Notice both the large
+differences across
+countries as well as the
+increases in per capita
+GDP over time.
+FIGURE 1.1
+GDP per Person in Six Countries
+GDP per person
+(ratio scale, 2017 dollars)
+64,000
+32,000
+16,000
+8,000
+4,000
+2,000
+1,000
+U.K.
+1870 S. Africa
+United States
+Argentina
+Japan
+China
+1880
+1900 1920 1940 1960 1980 2000 2020
+Year
+Source: The Maddison-Project, www.ggdc.net/maddison/.
+Employment typically
+rises each month. But the
+2007–2009 recession led
+to the largest sustained
+decline in employment in
+many decades.
+FIGURE 1.2
+Changes in U.S. Employment
+Monthly change in
+employment (percent)
+1.5
+1
+0.5
+0
+0.5
+1
+1970 1980 1990 2000 2010 2020
+Year
+Source: Federal Reserve Economic Data (FRED), courtesy of the Federal Reserve Bank of St. Louis.
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch01_002-017.indd 6 PAGE:
+95108_TXT_0006.p1.pdf
+Cyan, Magenta, Yellow, Black
+FOLIO
+6
+SEQUENCE
+30
+18/11/19 11:51 AM
+1.1 What Is Macroeconomics? | 7
+FIGURE 1.3
+Inflation Rates in Certain Rich Countries
+Percent
+25
+20
+15
+10
+U.K.
+In many rich countries,
+inflation was high in the
+1970s and has been low
+since the late 1980s. As
+we will see in Chapter 8,
+this fact generally holds
+across many countries
+in the world.
+Euro area
+5
+U.S.
+0
+Japan
+1960 1970 1980 1990 2000 2010 2020
+Year
+Source: FRED. The inflation rate measures the percentage change in consumer prices.
+the evidence shown in Figure 1.4. This experience is particularly surprising
+in light of the fact that unemployment rates in Europe were much lower
+than in the United States up until about 1980. Why has unemployment in
+Japan been so low for most of this period?
+• What role does the government, both the fiscal authority and the
+monetary authority, play in recessions and booms and in determining the
+rate of inflation?
+• Budget deficits result when the government borrows money to finance its
+spending. Trade deficits result when one economy borrows from another.
+Why would an economy run a high budget deficit or a high trade deficit,
+or both? What are the consequences of these deficits? Figure 1.5 shows
+the evolution of both deficits in the United States since 1960. Are large
+deficits a problem?
+• What prompted the currency crises in Mexico in the mid- 1990s and
+in many Asian economies at the end of the 1990s? What are the
+consequences of the recent decision by China to let its currency, the
+renminbi, appreciate after it was fixed for many years relative to the dollar?
+• What role do financial markets like the stock market play in an economy?
+What is a “bubble,” and how can we tell if the stock market or the
+housing market is in one?
+To study questions such as these, macroeconomists construct mathematical
+models, similar in spirit to the models used in microeconomics. Yet one of the most
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch01_002-017.indd 7 PAGE:
+95108_TXT_0007.p1.pdf
+Cyan, Magenta, Yellow, Black
+FOLIO
+7
+SEQUENCE
+31
+18/11/19 11:51 AM
+8 | Chapter 1 Introduction to Macroeconomics
+What explains the very
+different histories of
+the unemployment rate
+in the United States,
+Europe, and Japan?
+FIGURE 1.4
+The Unemployment Rate in the United States, Europe, Japan
+Percent
+14
+12
+10
+Europe
+United States
+8
+6
+4
+2
+0
+Japan
+1960 1970 1980 1990 2000 2010 2020
+Year
+Sources: OECD Main Economic Indicators and the U.S. Bureau of Labor Statistics.
+The U.S. budget and
+trade deficits have been
+relatively high in recent
+years.
+Budget deficit
+FIGURE 1.5
+Budget and Trade Deficits in the United States
+Percent of GDP
+10
+8
+6
+4
+2
+0
+2
+1960 1970 1980 1990 2000 2010 2020
+Trade deficit
+Year
+Source: Department of Commerce, Bureau of Economic Analysis.
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch01_002-017.indd 8 PAGE:
+95108_TXT_0008.p1.pdf
+Cyan, Magenta, Yellow, Black
+FOLIO
+8
+SEQUENCE
+32
+18/11/19 11:51 AM
+1.2 How Macroeconomics Studies Key Questions | 9
+exciting features of macroeconomics is the way it combines these models with real-
+world phenomena— history, politics, and economic policy. This interaction between
+theory and practice is a key reason students enjoy studying macroeconomics.
+1.2 How Macroeconomics Studies
+Key Questions
+The preceding questions all concern the economy taken as a whole. This is obvious
+in the case of economic growth, but it is true of the other questions as well. For
+example, we care about budget and trade deficits because they may affect stan-
+dards of living for the economy in the future. We care about bubbles in financial
+markets because the collapse of a bubble may send the economy into a recession.
+Macroeconomics is also unified in a different way: by the approach it takes to
+studying these questions. In general, this approach consists of four steps:
+1. Document the facts.
+2. Develop a model.
+3. Compare the predictions of the model with the original facts.
+4. Use the model to make other predictions that may eventually be
+tested.
+1. First, we document the key facts related to the question we want to consider.
+For example, suppose we ask, “Why are people in Europe so much richer today
+than a century ago?” Our first step is to gather economic data to document how
+rich Europeans are today and how rich they were a hundred years ago. With such
+data we can make precise, quantitative statements.
+2. Next, we develop a model. You are already familiar with one of the most
+important models in economics, that of supply and demand. Models are extremely
+useful because they allow us to abstract from the nearly infinite number of forces
+at play in the real world in order to focus on those that are most relevant. For
+example, in studying the effect of a minimum wage law, economists will use a
+supply- and- demand model of the labor market. We act as if there is a single labor
+market that pays a single wage in a world with no schooling decisions, on- the-
+job training, or geography. This abstract model is an unrealistic picture of the real
+world, but it nevertheless allows us to learn important lessons about the effect of
+introducing minimum wage legislation.
+All models in economics share an important general structure, shown in
+Figure 1.6. Each takes as inputs a set of parameters and exogenous variables: the
+features of the economy that the model builder gets to pick in advance, features
+that are outside the model, or given. Parameter refers to an input that is generally
+fixed over time, except when the model builder decides to experiment by changing
+it. In our labor market model, the level of the minimum wage would be an example
+of a parameter. Exogenous variable (“ exo-” means “outside”) refers to an input
+that is allowed to change over time, but in a way that is completely determined
+ahead of time by the model builder. For example, we might assume the popula-
+tion in the economy grows over time at a constant, exogenous rate, regardless of
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch01_002-017.indd 9 PAGE:
+95108_TXT_0009.p1.pdf
+Cyan, Yellow, Black
+FOLIO
+9
+SEQUENCE
+33
+18/11/19 11:51 AM
+10 | Chapter 1 Introduction to Macroeconomics
+A model takes some
+inputs, called param-
+eters and exogenous
+variables, and deter-
+mines some outcomes,
+called endogenous
+variables. For example,
+a labor market model
+may take the level of the
+minimum wage and the
+number of people in the
+economy as parameters
+and determine the wage
+and the level of employ-
+ment (the endogenous
+variables).
+FIGURE 1.6
+The Structure of Economic Models
+Parameters
+and
+exogenous
+variables
+MODEL Endogenous
+variables
+Inputs
+Outcomes
+The end of each chapter
+contains one or two
+worked exercises to help
+you learn the material.
+what happens in the labor market. Population then would be an example of an
+exogenous variable.
+A model operates on the exogenous variables and parameters in order to gen-
+erate outcomes, called endogenous variables (“ endo-” means “within”: within, or
+explained by, the model). For example, in the labor market model, the level of the
+wage and the level of employment would be endogenous variables (outcomes)
+determined by supply and demand.
+Unlike what you may have seen in an introductory economics class, the models
+we develop in this book will consist of a set of mathematical equations and a set
+of unknowns (the endogenous variables). Solving a model is in principle as simple
+as solving the equations for the values of the unknowns. For example, an equation
+describing labor supply and an equation describing labor demand constitute the
+mathematical version of the labor market model. Both equations involve our two
+endogenous variables, the wage and the level of employment. So we have two
+equations and two unknowns. Equilibrium in the labor market occurs when labor
+supply is equal to labor demand at the market wage, and the solution to these
+equations gives us the equilibrium levels of the wage and employment.
+At the moment, this is all admittedly very abstract. A worked exercise at the
+end of this chapter will take you through the labor market example in more detail.
+Later, in Chapter 4, we will develop our first model in order to understand why
+some countries are so much richer than others. That example will go a long way
+toward helping you understand exactly what a model is and why models are useful.
+You can then build on that knowledge as you work with other models throughout
+the book.
+3. The third step is to consider how well our model helps us understand the
+facts we began with. A successful model of why some countries are so much richer
+than others, for example, should predict that countries will have different levels
+of income. But that is not enough. To be truly successful, the model should also
+get the quantitative predictions right as well; that is, it should not only predict
+that the United States will be richer than Ethiopia but also give the 50-fold dif-
+ference that we observe in practice.
+4. The fourth and final step is related to the third: using the model to run “ex-
+periments.” Once we have a model in hand, the model builder is free to change the
+underlying parameters in order to analyze how this change affects the endogenous
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch01_002-017.indd 10 PAGE:
+95108_TXT_0010.p1.pdf
+Cyan, Magenta, Yellow, Black
+FOLIO
+10
+SEQUENCE
+34
+18/11/19 11:51 AM
+1.3 An Overview of the Book | 11
+variables. For example, we might change a tax rate and study the response of
+investment and standards of living. Or we might consider lowering a short- term
+nominal interest rate to study the evolution of inflation and unemployment over
+time. The advantage of having an explicit mathematical model is that it can make
+quantitative predictions. These predictions can then be compared with real evi-
+dence to judge the validity of the model and can be used to analyze particular
+policy changes.
+An important issue that arises is that such “experiments” are very different from
+the controlled experiments that are the hallmark of much of science. Part of the
+reason there is often substantial debate over macroeconomic policies in practice
+is that we do not have access to a “parallel universe machine” in which to study
+the counterfactual of “what would have happened if we had pursued a different
+policy.”1
+For example, consider a recent question that has been the subject of much
+debate: How effective was the $800 billion fiscal stimulus program approved by
+the U.S. government during the global financial crisis in January 2008? The unem-
+ployment rate during the next 2 years rose by substantially more than macro-
+economic forecasters had predicted. Was this because the fiscal stimulus implied
+higher future taxes that made businesses reluctant to hire? Or was it because the
+macroeconomic shocks of the period were more severe than forecasters realized?
+Ideally, economists would observe two parallel universes, one in which the fiscal
+stimulus plan is implemented and another that is identical except that the plan is
+not implemented. The frequent absence of this kind of evidence makes it remark-
+ably difficult to answer many such policy questions with extreme confidence.
+1.3 An Overview of the Book
+Figure 1.7, a graph of per capita GDP for the United States, is one of the most
+famous and intriguing graphs of macroeconomics, and it serves as an organizing
+device for this book. There are three important features of the graph that parallel
+the three main sections of the text.
+The Long Run
+The most impressive feature of the graph is the enormous increase in standards
+of living over the years. Income per person began at $3,600 in 1870 and rose by
+more than a factor of 15 to $61,600 in 2018. Why have living standards grown
+so dramatically in the United States? And why have some regions of the world,
+like Ethiopia (as we saw earlier), not experienced a similar revolutionary change?
+These are among the most important questions in macroeconomics. The first part
+of this book— Chapters 3 through 6—develops the answers that macroeconom-
+ics currently offers. More generally, this first section is concerned with economic
+growth and the determinants of the macroeconomy in the long run. Chapter 7
+then turns to the labor market in the long run, and Chapter 8 considers the long-
+run causes of inflation. A solid understanding of the macroeconomics of the long
+run turns out to be essential to understanding everything else that follows.
+1 The wonderful phrase “parallel universe machine” was used in this context on an NPR Planet Money episode called
+“The Great Stimulus Experiment,” August 10, 2010.
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch01_002-017.indd 11 PAGE:
+95108_TXT_0011.p1.pdf
+Cyan, Yellow, Black
+FOLIO
+11
+SEQUENCE
+35
+18/11/19 11:51 AM
+12 | Chapter 1 Introduction to Macroeconomics
+Three features of
+the graph stand out:
+(1) the overall upward
+trend due to economic
+growth, (2) the short-
+run fluctuations in
+economic activity, and
+(3) the suggested ques-
+tion of what the future
+holds. These features
+reflect the structure of
+the book.
+FIGURE 1.7
+Per Capita GDP in the United States
+Per capita GDP
+(2017 dollars)
+64,000
+32,000
+The average annual
+growth rate is
+2% per year
+16,000
+8,000
+4,000
+1880 1900 1920 1940 1960 1980 2000
+Year
+Sources: The Maddison-Project, www.ggdc.net/maddison/, and U.S. Department of Commerce, Bureau of Economic
+Analysis. The blue line shows actual per capita GDP in the United States. The orange line, which is hard to distinguish
+from the blue line, shows potential output. The difference between actual and potential output is a measure of short-run
+fluctuations in GDP.
+The Short Run
+Notice that in Figure 1.7 two lines are plotted: the blue line is actual per capita
+GDP, or output, while the orange line, a “smoothed” version of the solid line,
+is called potential output. Potential output measures the way per capita GDP
+would evolve if prices were completely flexible and resources were fully employed.
+The second important feature of the figure is that actual output deviates from
+potential output. Other than the Great Depression of the 1930s, these deviations
+are hard to see, but they are still economically important. For example, in 1982,
+the U.S. economy suffered one of the largest recessions of the post– World War II
+era, and actual output was about 5 percent less than potential output. In today’s
+prices, this gap was roughly $1,500 per person, or $6,000 for a typical family of
+four, so this recession represented a large cost in terms of lost income.
+The third part of this book, Chapters 9 through 15, examines the economics
+underlying these fluctuations in GDP. Actual GDP is sometimes below potential
+and sometimes above, and the rise and fall of these deviations is traditionally
+called the “business cycle.” In modern macroeconomics, this term is often avoided
+because it suggests some regularity to the movements— that a boom period is
+naturally followed by a recessionary period. Instead, most economists today prefer
+the more neutral “economic fluctuations.”
+The deviations between actual and potential output usually last only a short
+time. The second part of this book thus focuses on what is called the short run.
+We seek to understand the forces that lead the economy to fluctuate over time,
+sometimes producing recessions like the one experienced throughout much of the
+world starting at the end of 2007.
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch01_002-017.indd 12 PAGE:
+95108_TXT_0012.p1.pdf
+Cyan, Magenta, Yellow, Black
+FOLIO
+12
+SEQUENCE
+36
+18/11/19 11:51 AM
+1.3 An Overview of the Book | 13
+By almost any measure, the recent financial crisis and the ensuing economic
+downturn is exceptional. For example, this was clear at the start of this chapter
+in the graph of monthly employment changes (Figure 1.2). In recognition of this
+fact, this book devotes two unique chapters to the macroeconomics of the financial
+crisis, Chapters 10 and 14. These chapters explain the facts of the crisis, introduce
+several important concepts like balance sheets and leverage, and use the basic mac-
+roeconomics of the short run to shed light on the events surrounding the crisis.
+A central topic of short- run macroeconomics that is not conveyed by our orga-
+nizing graph is the role of inflation. As we will see, economic fluctuations and
+inflation are connected in an important way: one reason economic activity fluctu-
+ates is that the central bank leads the economy into a recession in order to bring
+down inflation. Chapters 9 through 15 develop a model of how inflation and GDP
+are jointly determined in the short run.
+The fact that the fluctuations in GDP are somewhat difficult to see in Fig-
+ure 1.7 is itself worthy of note. Even the worst crisis— the Great Depression of the
+1930 s— painful as it was, proved to be temporary, and the overwhelming fact of
+twentieth- century macroeconomics was one of sustained economic growth. Over
+the long term, economic growth swamps economic fluctuations.
+Issues for the Future
+Finally, the natural question raised by Figure 1.7 concerns the future. We can’t help
+but look at the sustained rise in income and wonder if it will continue. Will the
+next century see another 10-fold increase in per capita GDP, so that our great-
+grandchildren will earn an average of $500,000 per year?
+This theme of what the future holds— or of macroeconomics beyond economic
+growth and fluctuations— is one way of thinking about the last section of the book.
+Chapter 16 explores the microfoundations that underlie the modern understanding
+of consumption. What determines how much the economy consumes or saves in
+any given year? Chapter 17 studies investment. One very important type of invest-
+ment, central to macroeconomics, is investment in physical capital— machine tools,
+computers, and buildings, for example. We explore how firms determine how much
+to invest in physical capital. Another key theme of this chapter, though, is that
+many kinds of investment can be understood in the same way. So this chapter also
+studies the determinants of financial investment and prices in the stock market.
+Chapter 18 discusses the government budget constraint and the size of the
+current deficit and debt. A key point of this chapter is that major decisions about
+government spending and taxation, especially regarding health care, will have to
+be made in the coming decades. Virtually all economists agree that current poli-
+cies cannot be sustained.
+Chapters 19 and 20 explore another key theme related to the future of the
+macroeconomy: the rise of globalization. The United States is but one (albeit
+large and important) member of the world economy. Earlier chapters in the book
+explicitly recognize this fact and explore its implications. For example, the dis-
+covery of new ideas in a distant part of the world affects potential output in every
+country, and changes in the demand for U.S. exports can be a source of short- run
+fluctuations. Here, however, we make globalization a focus.
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch01_002-017.indd 13 PAGE:
+95108_TXT_0013.p1.pdf
+Cyan, Yellow, Black
+FOLIO
+13
+SEQUENCE
+37
+18/11/19 11:51 AM
+14 | Chapter 1 Introduction to Macroeconomics
+Chapter 19 explores the theory of international trade: Why do economies trade
+with each other, and what are the consequences of this trade? Chapter 20 studies
+exchange rates and international finance. Both chapters help us think about the
+effects of globalization on the macroeconomy and the consequences of the high
+trade deficits seen in recent years in the United States. Finally, in Chapter 21 we
+look back at the ground we have covered and consider the important questions
+that remain.
+Macroeconomics is a fascinating and intriguing subject. Understanding the
+answers to the questions it poses offers the possibility of enormous improve-
+ments in welfare throughout the world. If we understand the sources of economic
+growth, perhaps all countries can unleash its powerful engine. If we understand
+why hyperinflations or depressions occur, perhaps we can prevent them from recur-
+ring. Education is the first step to a better future.
+C H A P T E R R E V I E W
+SUMMARY
+1. Macroeconomics is the study of collections of people and firms and how
+their interactions through markets determine the overall performance of the
+economy.
+2. Many of the most important questions in economics require macroeconomic
+analysis: What determines the wealth of nations? How do we understand the
+recent global financial crisis and the Great Recession that resulted? What
+caused the Great Inflation of the 1970s, and why has inflation been so much
+lower for the past decade? What are the consequences of trade deficits and
+budget deficits?
+3. Macroeconomics studies these questions in four steps: document the relevant
+facts, develop a model, compare the predictions of the model with the facts,
+use the model to make and test other predictions.
+4. A model is a collection of mathematical equations that are used to study a
+particular economic issue. Models determine the value of endogenous variables,
+like the price and quantity of computers sold or the rate of economic growth.
+5. This book is organized around a key graph, Figure 1.7. The first part focuses
+on macroeconomics in the long run, the second part deals with the short run,
+and the third part takes up a number of important topics that will concern us
+in the future.
+KEY CONCEPTS
+endogenous variables macroeconomics the short run
+exogenous variables parameters the long run
+potential output
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch01_002-017.indd 14 PAGE:
+95108_TXT_0014.p1.pdf
+Cyan, Magenta, Yellow, Black
+FOLIO
+14
+SEQUENCE
+38
+18/11/19 11:51 AM
+Exercises | 15
+REVIEW QUESTIONS
+1. Which questions in macroeconomics interest you the most? Why?
+2. Given your current knowledge, what do you think are the answers to these
+questions?
+3. How does macroeconomics study these questions?
+4. What are the key ingredients of an economic model, and why are models useful?
+EXERCISES
+1. Macroeconomic questions and answers: Select one of the macroeconomic
+questions in this chapter. Describe what you think the answer is.
+2. The macroeconomics of your favorite country: Pick a country that you find
+interesting, and learn some basic facts about its economy. Summarize these
+facts in a half- page essay. You may find the following resources to be helpful;
+feel free to explore others on your own.
+— The CIA World Factbook: www.cia.gov/cia/publications/factbook
+— Wikipedia: wikipedia.org
+— The “Country Snapshots” file, snapshots.pdf, which should be available on
+your course web page or from the web address in the next question.
+3. Country snapshots: Download the file snapshots.pdf from web.stanford.edu/
+~chadj/snapshots.html and answer the following. (At the moment, the latest
+year in the data file is 2017. Over time, this year will advance, so please
+use the latest year available in the Country Snapshots file whenever the year
+2017 appears in questions below.)
+(a) What was the ratio of per capita income in each of the following countries
+to that in the United States in the year 2017. Ethiopia, Mexico, India,
+and Japan?
+(b) Which country had the faster average annual growth rate of per capita
+GDP between 1960 and 2017, Botswana or China?
+(c) Rank these countries in order of population: Bangladesh, Brazil, Indonesia,
+Nigeria, Russia, the United States.
+(d) Which is larger as a share of GDP in most rich countries, investment or
+government purchases? What about in most poor countries?
+(e) Exchange rates are reported as units of domestic currency (like the Japanese
+yen or the British pound) per U.S. dollar. Look at the exchange rate for
+several countries. Do you detect any overall pattern? Why might that be?
+4. Making graphs (spreadsheet): Use the snapshots.pdf file, together with its
+hyperlinks to the underlying spreadsheet data. Use a spreadsheet program of
+your choice to complete the following.
+(a) Make a plot of per capita GDP (in dollars) for the years 1950 to 2017
+for a country of your choice. Label the x- axis “year” and the y- axis “per
+capita GDP.”
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch01_002-017.indd 15 PAGE:
+95108_TXT_0015.p1.pdf
+Cyan, Yellow, Black
+FOLIO
+15
+SEQUENCE
+39
+18/11/19 11:51 AM
+16 | Chapter 1 Introduction to Macroeconomics
+*
+(b) Make a plot of per capita GDP relative to the United States 1U.S.
+= 1002
+for the years 1950 to 2017 that includes the United States and three other
+countries of your choice, all on the same graph. Be sure to label the lines
+on the graph in some informative way so that each line can be associated
+with its country.
+5. The labor market model (I): Suppose the following equations characterize sup-
+ply and demand in the labor market model:
+labor supply: Ls = 2 × w + 30
+labor demand: Ld = 60− w
+Equilibrium occurs at an employment level L* and a wage w*, so that the labor
+market clears. That is, supply is equal to demand: Ls = Ld
+.
+(a) What are the endogenous variables in the labor market model?
+(b) Solve for the equilibrium values of these endogenous variables.
+6. The labor market model (II): Now we add some parameters to the labor market
+model:
+labor supply: Ls = a × w + ,
+labor demand: Ld = f− w
+The parameters in this setup are a, ,, and f . (Notice that parameters are
+denoted with an overbar, a convention we will maintain throughout the book.)
+The parameter , 0 represents the number of hours workers would supply to the
+market even if the wage were zero; it therefore reflects the inherent amount of
+time people like to work. The parameter f , in contrast, reflects the amount of
+labor the firm would like to hire if the wage were zero. It might be thought
+of as some inherent capacity of the firm (perhaps because the firm owns a
+given amount of land and capital that cannot be altered).
+(a) What is the economic interpretation of a ?
+(b) What are the endogenous variables in this model?
+(c) Solve for the equilibrium of the labor market. That is, solve for the endog-
+enous variables as a function of the parameters of the model.
+(d) If , increases, what happens to the equilibrium wage and employment
+levels? Does this make sense? (Hint: Think about what happens in the
+supply- and- demand diagram for the labor market.)
+(e) Answer the same questions in (d) for an increase in f.
+7. Models: Apply the supply- and- demand model to the following markets. In
+each case, state the key endogenous variables in the market as well as some
+important exogenous variables or parameters. Also, express each model as a
+system of mathematical equations. As an example, Q= F 1P, X 2 might be
+the demand curve in the computer market, where X captures some exogenous
+variables like the availability of the iPad or computer games. How many equa-
+tions are there within each example? How many unknowns?
+(a) The computer market.
+(b) The market for your favorite music.
+(c) The market for a particular currency, such as the dollar, the yen, or the euro.
+(Hint: This last example suggests an important point about “exogenous
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch01_002-017.indd 16 PAGE:
+95108_TXT_0016.p1.pdf
+Cyan, Yellow, Black
+FOLIO
+16
+SEQUENCE
+40
+18/11/19 11:51 AM
+Worked Exercise | 17
+variables”: what is exogenous in one model, as in a narrow study of the
+supply and demand for dollars, may be endogenous in a richer model— like
+a study of the entire U.S. macroeconomy.)
+W O R K E D E X E R C I S E
+Here and in each following chapter, you will find the worked exercises most
+helpful if you try to work through them completely on your own before
+consulting the answers.
+5. The labor market model (I):
+(a) The endogenous variables are the price and quantity: the wage w and the
+quantity of labor L. Another way to think about this problem is that we
+have three equations and three unknowns, the unknowns being the wage,
+labor supply, and labor demand. However, since the “third” equation is
+that labor supply equals labor demand, this naturally reduces our model
+to two equations in w and L.
+(b) The equilibrium of the labor market is shown in Figure 1.8. To solve
+for this equilibrium, we first find the wage rate that equates supply and
+demand. This wage solves
+2w + 30= 60− w.
+(The left side is labor supply and the right side is labor demand.) The solu-
+tion to this equation is w* = 10. Substituting this wage into either the labor
+supply equation or the labor demand equation, we find that the equilibrium
+quantity of labor is L* = 50.
+FIGURE 1.8
+The Labor Market
+Wage
+Ls
+w*
+L*
+Ld
+Employment
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch01_002-017.indd 17 PAGE:
+95108_TXT_0017.p1.pdf
+Cyan, Magenta, Yellow, Black
+FOLIO
+17
+SEQUENCE
+41
+18/11/19 11:51 AM
+18 | Chapter 2 Measuring the Macroeconomy
+C H A P T E R
+2
+MEASURING THE
+MACROECONOMY
+O V E R V I E W
+In this chapter, we learn
+• the importance of gross domestic product (GDP), and how it is measured.
+• the composition of GDP, and how it has changed over time.
+• how to use GDP to measure the evolution of living standards over time.
+• how to use GDP to measure differences in living standards across countries.
+18
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 18 PAGE:
+95108_TXT_0018.p1.pdf
+Cyan, Magenta, Yellow, Black
+FOLIO
+18
+SEQUENCE
+42
+18/11/19 11:50 AM
+2.2 Measuring the State of the Economy | 19
+“
+While the GDP and the rest of the national income accounts
+may seem to be arcane concepts, they are truly among
+the great inventions of the twentieth century.
+—PAUL A. SAMUELSON AND WILLIAM D. NORDHAUS
+2.1 Introduction
+Exactly how severe was the Great Depression? Perhaps surprisingly, it was difficult
+for policymakers in the early 1930s to know. Stock prices, railroad freight reports,
+and some limited measures of industrial production did signal problems. But no
+broad- based measure of economic activity was available to quantify the Depres-
+sion or to indicate the effectiveness of steps designed to spur economic recovery.
+This ignorance in the face of such an important phenomenon led Simon Kuznets
+and his colleagues at the U.S. Department of Commerce to create the National
+Income and Product Accounts that same decade. The development of “national
+income accounting,” together with improvements made subsequently, stands as
+one of the fundamental contributions of economics during the twentieth century.1
+National income accounting provides a systematic method for aggregating the
+production of cars, computers, health care, and music into a single measure of
+overall economic activity. Moreover, it relates this measure of aggregate produc-
+tion to the total amount of income earned by every person in the economy and
+to all the spending that occurs. In one of the most beautiful accounting relations
+in economics, total production equals total income equals total spending; in this
+chapter, we will see how.
+National accounting allows us to take a detailed snapshot of the state of the
+economy at a given point in time. But it also shows us how these snapshots can
+be linked together over time to provide a picture of economic growth. Further,
+pictures for different countries can be lined up to help us understand how eco-
+nomic performance varies throughout the world.
+This chapter discusses the central elements of national accounting and how
+these pictures of economic performance are created. The accounting theory is
+presented with real- world examples, so that you simultaneously learn the economic
+concepts as well as important empirical facts about economic activity in the United
+States and other countries.
+2.2 Measuring the State of the Economy
+The key measure of the state of the economy is called gross domestic product,
+or GDP for short. Gross domestic product is defined as the market value of the
+final goods and services produced in an economy over a certain period. If you
+Epigraph: “GDP: One of the Great Inventions of the 20th Century,” Survey of Current Business (January 2000),
+pp. 6–14.
+1 This history is discussed in detail in the article cited in the epigraph.
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 19 PAGE:
+95108_TXT_0019.p1.pdf
+Cyan, Yellow, Black
+FOLIO
+19
+SEQUENCE
+43
+18/11/19 11:50 AM
+20 | Chapter 2 Measuring the Macroeconomy
+add together the value of all the cars, clothes, peanut butter, airline travel, musi-
+cal performances, magazine articles, and everything else produced in a year, you
+will get GDP. In 2018, GDP in the United States was equal to $20.5 trillion, or
+about $62,000 per person.
+According to national
+income accounting, GDP
+in an economy equals
+production, expenditure,
+and income. We exploit
+this result repeatedly
+throughout the book.
+Production = Expenditure = Income
+Like nearly all other accounting systems, national income accounting involves a
+large number of detailed definitions and constructs. Its overall principles, however,
+are elegantly straightforward. We can see how they work by considering a simple
+example.
+Suppose the economy consists of only a single family farm with a small fruit
+stand in the front yard. Our farmers, Homer and Marge, grow tangerines on the
+land, hire some workers to help them with the harvest, and then sell the tangerines
+at the fruit stand. GDP in this simple economy is the total number of tangerines
+Homer and Marge produce in a year. This is the production measure of GDP,
+and we could compute it by following the farmworkers through the orchard and
+counting the tangerines as they get picked.
+An alternative way to measure this GDP is by focusing on sales at the fruit
+stand. Consumers visit the stand each day to buy tangerines, and the total pur-
+chases represent the expenditure approach to measuring GDP. As long as all the
+tangerines that are picked end up being sold, these two measures will be equal.2
+Finally, the workers in this tangerine economy are paid a wage, and Homer
+and Marge also earn some income— the “profits” that are not paid out as wages
+to the workers. The income approach to measuring GDP adds up all the income
+earned in the economy. On the farm, all production gets paid out to someone as
+income— either to the workers as wages or to Homer and Marge as “profits”—so
+the production measure of GDP must also be equal to the income measure.
+This example illustrates a fundamental principle in national income accounting:
+production equals expenditure equals income. These terms reflect the three different
+ways to compute GDP in any economy, and all three are defined so that they will
+give identical values.
+Why is “profits” in quotation marks above? The reason has to do with the
+distinction between the common use of the word— as in the profits Homer and
+Marge earn— and the “economic profits” referred to by economists. The profits
+earned by Homer and Marge are really just a normal, competitive return on their
+own labor, farm, and fruit stand. Economic profits are the above- normal returns
+associated with prices that exceed those that prevail under perfect competition.
+An important lesson from microeconomics is that unless there is some market
+power by which firms charge prices above marginal cost, economic profits are zero.
+We now look at each approach to GDP in turn.
+2 In practice, you can imagine some firms producing goods— like dump trucks or airplanes— that are not sold during
+the same year in which they are produced. National accounting treats these goods as inventories and counts them as
+investment expenditures so that the production and expenditure measures of GDP are equal.
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 20 PAGE:
+95108_TXT_0020.p1.pdf
+Cyan, Magenta, Yellow, Black
+FOLIO
+20
+SEQUENCE
+44
+18/11/19 11:50 AM
+2.2 Measuring the State of the Economy | 21
+The Expenditure Approach to GDP
+The national income accounts divide the goods and services that are purchased into
+several categories. This breakdown appears in one of the fundamental accounting
+equations, called the national income identity:
+Y= C + I + G + NX (2.1)
+where
+Y= GDP 1in dollars2,
+C= consumption,
+I= investment,
+G= government purchases, and
+NX= net exports = exports− imports.
+This equation, representing the expenditure approach to GDP, illustrates how
+expenditures are divided according to their purpose. Goods and services can be
+consumed, invested by the private sector, bought by the government, or shipped
+abroad for foreigners to use.
+Table 2.1 shows the actual breakdown of U.S. GDP in 2018. Consumption
+expenditures accounted for 68 percent of GDP. Examples include expenditures on
+motor vehicles, food, housing services, and medical care, with consumption of the
+last two categories each exceeding 10 percent of GDP. Investment expenditures
+TABLE 2.1
+The Expenditure Approach to U.S. GDP in 2018
+Total (billions Share of GDP Per person
+of dollars) (percent) (dollars)
+GDP is the sum of con-
+sumption, investment,
+government purchases,
+and net exports. Some
+examples of these
+expenditure categories
+are listed.
+Gross domestic product 20,500 100.0 62,600
+Personal consumption expenditures 13,950 68.0 42,600
+Motor vehicles and parts 510 2.5 1,550
+Food 390 1.9 1,210
+Housing 2,560 12.5 7,820
+Medical care 2,380 11.6 7,250
+Gross private domestic investment 3,650 17.8 11,150
+Structures (nonresidential) 640 3.1 1,950
+Equipment 1,240 6.0 3,780
+Intellectual property products 930 4.5 2,830
+Residential 800 3.9 2,430
+Government purchases 3,520 17.2 10,760
+National defense 780 3.8 2,380
+Net exports of goods and services −630 −3.1 −1,910
+Exports 2,530 12.3 7,730
+Imports 3,160 15.4 9,640
+Source: U.S. Department of Commerce, Bureau of Economic Analysis, www.bea.gov.
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 21 PAGE:
+95108_TXT_0021.p1.pdf
+Cyan, Magenta, Yellow, Black
+FOLIO
+21
+SEQUENCE
+45
+18/11/19 11:50 AM
+22 | Chapter 2 Measuring the Macroeconomy
+made up about 18 percent of GDP. This category includes purchases by businesses
+of structures like office buildings and equipment such as computers and machine
+tools. Starting in 2015, it also includes a new category of investment called intel-
+lectual property products (IPP). This category includes R&D spending as well
+as expenditures on durable intangible goods like software, movies, books, and
+music. The construction of new homes (“Residential”) is also counted as part of
+investment.
+Government purchases, which totaled 17 percent of GDP, include expenditures
+on public schools, highways, government- funded research, and national defense.
+There is an important and sometimes confusing distinction between government
+purchases and government spending. Government spending includes purchases of
+goods and services, but also “transfer” payments (like Social Security and Medicare)
+and interest payments on any outstanding government debt. To see this distinction
+more clearly, suppose the government taxes businesses and pays out the proceeds to
+the unemployed in the form of unemployment insurance. Both taxes and govern-
+ment spending are then higher, but is a flow of GDP generated? No, there is simply
+a transfer of resources from one group to another. In 2018, government purchases
+accounted for just over 1/2 of government spending, with the remainder consisting
+of transfers and interest payments. It is only the purchases that directly involve
+new production and are properly recorded as GDP. Finally, 12.3 percent of the
+goods and services produced by U.S. businesses were shipped abroad and sold to
+foreigners; these sales are exports. At the same time, U.S. consumers and businesses
+imported goods and services from abroad equal in magnitude to 15.4 percent
+of GDP. Imports included cars, cell phones, machine tools, and financial services.
+On net, then, the United States imported more than it exported, so that “net
+exports”—exports minus imports— were equal to−3.1 percent of GDP. Another
+This expenditure- side
+decomposition of GDP
+shows the general sta-
+bility of the shares over
+much of the twentieth
+century.
+FIGURE 2.1
+Composition of U.S. GDP
+Percent
+100
+Government purchases
+80
+Investment
+60
+40
+Consumption
+20
+0
+Net exports
+1930 1940 1950 1960 1970 1980 1990 2000 2010 2020
+Year
+Source: U.S. Department of Commerce, Bureau of Economic Analysis, www.bea.gov.
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 22 PAGE:
+95108_TXT_0022.p1.pdf
+Cyan, Magenta, Yellow, Black
+FOLIO
+22
+SEQUENCE
+46
+18/11/19 11:50 AM
+2.2 Measuring the State of the Economy | 23
+common name for net exports is the trade balance, and when the trade balance
+is negative, as in 2018, we say there is a trade deficit.
+How have these percentages changed over time? The answer is shown in Fig-
+ure 2.1. Broadly speaking, for the past 75 years or so, the composition of GDP
+has been relatively stable. The consumption share of GDP is roughly 65 percent,
+government purchases just under 20 percent, and investment about 15 to
+20 percent. We can also see from the figure that a big change occurred during
+World War II (1939–1945), when government purchases for national defense
+expanded sharply and crowded out private investment and consumption. During
+the Great Depression of the 1930s, the consumption share was relatively high
+and the investment share relatively low. Finally, the trade deficits of the past three
+decades are a recent phenomenon, and the deficit reached nearly 6 percent of GDP
+in 2006 before declining during the Great Recession. Before 1980, the U.S. econ-
+omy almost always had a trade balance that was zero or slightly positive. Why did
+it change? The next figure begins to address this question.
+The broad stability of shares of GDP suggested by Figure 2.1 masks some of
+the more recent movements. Figure 2.2, which plots the shares since 1970, shows
+that the consumption share of GDP has actually been rising since about 1980:
+in 1970, it was just 60 percent, but by 2018, it had risen to 68 percent. At an
+accounting level, this rise is mirrored by a decline in the trade balance through
+2018, from roughly 0 to−3.0 percent of GDP, and by a decline in government
+purchases from 24 percent to 17 percent. To some extent, then, the trade deficit
+is caused by the rise in consumption.
+The economic explanation for these changes is not clear. On the one hand, if
+the government decides to reduce its share in the economy, more is left over for
+private consumption. On the other hand, the rising trade deficit should make us
+FIGURE 2.2
+Expenditure Shares of U.S. GDP
+Share of
+GDP (percent)
+Consumption (right axis)
+68
+64
+60
+The steady rise in the
+consumption share is
+associated with a slight
+decline in government
+purchases and the
+emergence of a large
+trade deficit (at least
+prior to the recent
+recession).
+Government purchases
+Investment
+25
+20
+15
+10
+5
+Net exports
+0
+5
+1970 1975 1980 1985 1990 1995 2000 2005 2010 2015 2020
+Year
+Source: U.S. Department of Commerce, Bureau of Economic Analysis, www.bea.gov.
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 23 PAGE:
+95108_TXT_0023.p1.pdf
+Cyan, Magenta, Yellow, Black
+FOLIO
+23
+SEQUENCE
+47
+18/11/19 11:50 AM
+24 | Chapter 2 Measuring the Macroeconomy
+wary. A trade deficit is basically a way to borrow goods and services from another
+economy: the rest of the world sends more goods to the United States than we
+send in return. The only way they will agree to do this is if we promise to repay
+the “loan” in the future. This repayment will show up in the form of future trade
+surpluses, at which time there will be less GDP available for consumption, invest-
+ment, and government purchases.
+And the rise in consumption raises another question: What changes to the
+economy have U.S. consumers seen that lead them to want to increase their con-
+sumption share now at the expense of what will likely be a lower consumption
+share in the future? One possibility is a positive “technology shock” that will make
+the United States a richer country in the future (the AI revolution? biotech?).
+Another possibility, however, is that easy credit card access and easy methods of
+borrowing are leading people to consume too much and save too little. Exactly
+how much of the increased consumption share is due to each of these possibili-
+ties is unclear. This important issue will be explored in more detail in Chapter 18.
+The Income Approach to GDP
+An important lesson from national income accounting is that for every dollar of
+product sold there is a dollar of income earned. That is, as we saw with Homer
+and Marge, GDP is equal to the value of all goods and services produced in the
+economy, but it is also equal to the sum of all income earned in the economy.
+Table 2.2 shows the income approach to U.S. GDP in 2018. A large part of
+income, just under 55 percent, came in the form of compensation to employees—
+wages and salaries as well as the (growing) category of benefits, including health
+and retirement benefits. The bulk of the remainder was the net operating surplus
+of businesses, a fancy name for the “profits” earned by Homer and Marge.
+A much smaller category, depreciation of capital, constituted just over 15 per-
+cent of GDP. Capital refers to the inputs into production other than labor that are
+not completely used up in the production process. Examples include structures like
+a factory or office building and equipment like computers or copying machines. If
+this sounds like our description of investment (from Table 2.1), that is intentional:
+investment is the way a firm increases its stock of capital. For comparison, steel in
+TABLE 2.2
+The Income Approach to U.S. GDP in 2018
+Total (billions Share of GDP Per person
+of dollars) (percent) (dollars)
+Gross domestic product 20,500 100.0 62,600
+Compensation of employees 10,870 53.0 33,190
+Wages and salaries 8,850 43.2 27,020
+Benefits 2,020 9.9 6,170
+Taxes less subsidies on businesses 1,360 6.6 4,160
+Net operating surplus of businesses 5,900 28.8 18,000
+Depreciation of fixed capital 3,270 16.0 10,000
+Source: U.S. Department of Commerce, Bureau of Economic Analysis, www.bea.gov.
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 24 PAGE:
+95108_TXT_0024.p1.pdf
+Cyan, Yellow, Black
+FOLIO
+24
+SEQUENCE
+48
+18/11/19 11:50 AM
+2.2 Measuring the State of the Economy | 25
+FIGURE 2.3
+Labor’s Share of GDP
+Share
+0.75
+Labor income as a
+share of GDP is about
+two- thirds.
+0.70
+0.65
+0.60
+0.55
+1950 1960 1970 1980 1990 2000 2010 2020
+Year
+Source: U.S. Department of Commerce and author’s calculations.
+an automotive factory is not capital, but an intermediate input that is used up in
+production: after the car is built, the factory remains but the steel is incorporated
+into the car.
+When Homer and Marge run their fruit stand for a year, the shelving, light
+fixtures, and wooden structure all endure some wear and tear. These items are part
+of the farm’s capital stock, and the wear and tear is called depreciation. Some of
+their income is implicitly a compensation for this wear and tear— that is, for the
+depreciation of the farm’s capital. The presence of this depreciation accounts for
+the label “gross domestic product”; if we subtract out the depreciation, then the
+remainder is referred to as “net domestic product.” Finally, indirect business taxes,
+the smallest component of income, include sales and property taxes paid by the
+business sector.
+Another convenient way of presenting these income numbers is to assign all
+income to either labor or capital. If we do this, we discover two important things.3
+First, the fraction of GDP earned by labor is approximately two- thirds, or 67 per-
+cent; this leaves one- third as income to capital. Second, as we can see in Figure 2.3,
+the labor share fluctuates very little over time, lying between 60 and 70 percent
+of GDP.
+One of the classic “stylized facts” of macroeconomics is that the labor share
+is relatively constant over time at around two- thirds. A close look at Figure 2.3,
+however, suggests that this stylized fact may be less true than it first appears. In
+particular, there is a notable downward trend in this measure of the labor share
+since around 1970. Recent research reveals that this negative trend is to some
+extent a product of recent changes in the way the National Income and Products
+Accounts treats “intellectual property products” like computer software and R&D
+3 The main difficulty in making this assignment is that the net operating surplus of business— such as the profits
+of Homer and Marge— includes both labor income (e.g., for Homer and Marge) and capital income (e.g., land rent).
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 25 PAGE:
+95108_TXT_0025.p1.pdf
+Cyan, Magenta, Yellow, Black
+FOLIO
+25
+SEQUENCE
+49
+18/11/19 11:50 AM
+26 | Chapter 2 Measuring the Macroeconomy
+spending. Whether and how these new data should lead us to change our stylized
+fact of a constant labor share is an ongoing topic of research.4
+The Production Approach to GDP
+The stated definition of GDP— the value of the goods and services produced in
+an economy during a given period— is correct in a general way, but it misses one
+important qualifier. When GDP is computed as the value of goods and services
+produced in an economy, there is no double counting. For example, if a steel
+company produces $10 million worth of steel that is then used by an automobile
+company to make $100 million worth of trucks, the value of the steel is not counted
+twice. Rather, GDP goes up by $100 million.
+We can view this in two ways. First, it is only the final sale of goods and ser-
+vices that counts toward GDP. Alternatively, and more accurately, each producer
+creates an amount of GDP equal to the amount of value that is added during
+production. This value added, as it is called, is computed by subtracting the value
+of intermediate products (like steel or electricity; $10 million in our example) from
+the revenue generated by each producer. In terms of value added, then, the steel
+producer generates $10 million of GDP, while the automobile producer gener-
+ates $90 million 1$100 million− $10 million2, for a total increment once again
+of $100 million.
+Another important implication of the production approach to GDP is that it is
+only new production that counts. For example, if a construction company builds a
+new house and sells it for $200,000, this amount counts toward GDP. But suppose
+a used- car dealer buys a 2012 minivan for $17,000 and then sells it the next day
+to a family for $20,000; by how much does GDP change? The full $20,000 does
+not count toward this year’s GDP: the car already existed and does not represent
+new production. However, the “profit” of $3,000 earned by the dealer does count
+toward GDP: the product is the service of finding a match for minivan and family.
+What Is Included in GDP and What’s Not?
+A key way to understand more thoroughly the usefulness of GDP is to examine
+some of its limitations. The first thing to note is that GDP includes only goods
+and services that transact in markets. If your family goes out to dinner at a nice
+restaurant, the entire amount you spend there is counted as GDP. However, if your
+parents pick up some ingredients at the local market and spend an hour preparing
+a gourmet meal, only the purchase of the ingredients contributes to GDP— not
+the value of the time they spend cooking. Similarly, if Aunt Zoe and Uncle Elmo
+put their kids in day care while they work, the day- care service gets counted as
+GDP, but if Uncle Bert stays home to care for his kids, no market transaction
+occurs and no contribution to GDP is recorded.5
+4 For example, see Dongya Koh, Raul Santaeulalia- Llopis, and Yu Zheng, “Labor Share Decline and Intellectual
+Property Products Capital,” working paper, Washington University of St. Louis, October 2018.
+5 A prominent exception to the market rule is the benefit associated with owner- occupied housing. If you rent your
+home, the rental income is captured in GDP. But if you own your home, there is no annual income like the rent.
+National accountants estimate a rental equivalent in this case and include it in GDP.
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 26 PAGE:
+95108_TXT_0026.p1.pdf
+Cyan, Yellow, Black
+FOLIO
+26
+SEQUENCE
+50
+18/11/19 11:50 AM
+2.2 Measuring the State of the Economy | 27
+Another important omission from GDP is the health of a nation’s people. Over
+the past century, life expectancy has risen in virtually every country in the world.
+This increase is quantitatively very significant. In fact, William Nordhaus calculates
+that the rise in U.S. life expectancy in the twentieth century had roughly the same
+impact on the country’s economic welfare as the entire gain in per capita consump-
+tion over that century.6 To judge the validity of this calculation, ask yourself the
+following: Would you rather have the per capita income of the United States from
+1900 together with the medical technology of 2000 or the per capita income from
+2000 with the medical technology of 1900? Conventional measures of GDP do
+not incorporate this change in health. To take another example, the specter of the
+AIDS epidemic in Africa threatens to kill millions of people in the coming decades
+and has reduced life expectancy significantly in many sub- Saharan countries. The
+effect of this tragedy on measured GDP, however, will likely be relatively small.7
+A third potentially significant limitation of GDP is that it doesn’t include
+changes in environmental resources. For example, air and water pollution generated
+by factories as by- products of their manufacturing do not reduce GDP. Similarly,
+when nonrenewable natural resources like oil and natural gas are extracted, GDP
+goes up because of the productive effort spent turning the reserves into products,
+but there is no deduction from GDP associated with the reduction of oil and
+natural gas reserves. Interestingly, Martin Weitzman has calculated that the eco-
+nomic value of this depletion may be smaller than one might have expected: the
+price data used to measure the scarcity of these resources suggest that the overall
+cost of the finite nature of our nonrenewable resources is less than 1 percent of
+annual consumption.8
+C A S E S T U D Y
+Beyond GDP
+Many economists have sought to augment GDP to create broader measures of
+economic welfare. Here, we report on one recent attempt.
+Charles I. Jones and Peter J. Klenow of Stanford University begin by looking
+at consumption per person as their basis for welfare. This is motivated by the fact
+that consumption is the key measure that enters the utility functions that economists
+often use to study welfare. They then use common specifications of the utility function
+to incorporate life expectancy, leisure, and consumption inequality into the analysis.
+Results for a sample of countries in the year 2007 are shown in Table 2.3.
+6 William Nordhaus, “The Health of Nations: The Contribution of Improved Health to Living Standards,” in Mea-
+suring the Gains from Medical Research: An Economic Approach, Kevin M. Murphy and Robert Topel, eds. (Chicago:
+University of Chicago Press, 2003).
+7 See, for example, Alwyn Young, “The Gift of the Dying: The Tragedy of AIDS and the Welfare of Future African
+Generations,” Quarterly Journal of Economics, vol. 120 (May 2005), pp. 423–66.
+8 Martin L. Weitzman, “Pricing the Limits to Growth from Minerals Depletion,” Quarterly Journal of Economics,
+vol. 114 (May 1999), pp. 691–706.
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 27 PAGE:
+95108_TXT_0027.p1.pdf
+Cyan, Magenta, Yellow, Black
+FOLIO
+27
+SEQUENCE
+51
+18/11/19 11:50 AM
+28 | Chapter 2 Measuring the Macroeconomy
+Relative to the United
+States, the rich coun-
+tries of Western Europe
+are better off than their
+GDPs indicate because
+of higher life expec-
+tancy, higher leisure,
+and lower inequality.
+The poor countries are
+typically even poorer
+because of lower life
+expectancy, less leisure,
+and more inequality.
+TABLE 2.3
+GDP and Welfare across Countries
+Decomposition
+Per capita
+Country GDP
+Welfare Life expectancy C/Y Leisure Inequality
+United States 100.0 100.0 0.000 0.000 0.000 0.000
+77.8 0.845 836 0.658
+Sweden 79.4 91.2 0.181 20.186 0.010 0.135
+80.9 0.701 807 0.404
+France 70.3 91.1 0.176 20.085 0.063 0.106
+80.8 0.776 629 0.471
+Japan 71.3 82.6 0.265 20.154 20.028 0.063
+82.5 0.724 912 0.554
+Norway 112.8 81.0 0.148 20.598 0.019 0.100
+80.4 0.464 780 0.483
+Germany 74.4 77.4 0.098 20.195 0.047 0.089
+79.5 0.695 687 0.506
+Ireland 96.4 69.6 0.069 20.454 20.022 0.082
+79.0 0.536 896 0.519
+Hong Kong 83.4 59.0 0.239 20.433 20.151 20.000
+82.4 0.548 1194 0.658
+Singapore 117.1 56.7 0.139 20.685 20.180 20.000
+80.4 0.426 1251 0.658
+South Korea 58.3 45.3 0.078 20.290 20.116 0.076
+79.3 0.632 1120 0.531
+Argentina 26.2 21.8 20.121 20.108 0.048 20.000
+75.1 0.759 684 0.658
+Chile 30.9 19.7 0.029 20.254 20.026 20.199
+78.5 0.655 908 0.912
+Thailand 18.1 10.9 20.158 20.207 20.043 20.099
+73.5 0.687 951 0.794
+South Africa 17.4 4.5 20.931 20.053 0.061 20.427
+51.0 0.801 636 1.135
+Botswana 25.1 4.3 20.852 20.574 20.008 20.333
+52.1 0.476 859 1.048
+Vietnam 5.9 4.0 20.082 20.269 20.020 20.006
+74.2 0.645 893 0.668
+Zimbabwe 8.3 3.1 20.983 0.155 20.050 20.094
+45.8 0.986 969 0.789
+Kenya 2.8 1.9 20.394 0.104 0.059 20.157
+54.4 0.938 644 0.865
+Source: C. Jones and P. Klenow, “Beyond GDP? Welfare across Countries and Time,” American Economic Review, vol.
+106, no. 9 (September 2016): 2426–57. The second line for each country displays the raw data on life expectancy, the
+consumption share of GDP, leisure per adult, and the standard deviation of log consumption. All data are for the year 2007.
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 28 PAGE:
+95108_TXT_0028.p1.pdf
+Cyan, Magenta, Yellow, Black
+FOLIO
+28
+SEQUENCE
+52
+18/11/19 11:50 AM
+2.3 Measuring Changes over Time | 29
+To read this table, first consider the United States. Both per capita GDP and the
+consumption- equivalent welfare measure are normalized to the value of 100 for the
+United States. The green numbers in the second line for each country report the actual
+values of the underlying data. For example, in 2007, average life expectancy in the
+United States was 77.8 years, the consumption share of GDP (including government
+consumption) was 84.5 percent, annual hours worked per person was 836, and the
+standard deviation of consumption was about 65.8 percent of its mean.
+Now consider the next few lines in the table. In general, per capita GDP in Western
+European countries is surprisingly modest, around 75 percent of the U.S. value. Accord-
+ing to the welfare measure, however, Western Europe essentially closes the gap with
+the United States. Consider France as an example. In 2007, French life expectancy was
+3 years longer than that in the United States, and this boosted their welfare by 17.6 per-
+cent. The French worked less than Americans, and the extra leisure boosted their wel-
+fare by 6.3 percent. Finally, inequality was lower in France, and this added 10.6 percent
+to welfare. Taking all these factors into account, French welfare was 91.1 percent of
+the U.S. value, much closer than the large difference in GDP would suggest. A similar
+pattern holds for Japan and many other advanced economies.
+Unfortunately, the results move in the opposite direction when we look at poor coun-
+tries. For example, consider Thailand. In 2007, Thailand’s per capita GDP was 18.1 per-
+cent of that in the United States. However, Thailand’s life expectancy was lower, their
+consumption share of GDP was lower, leisure was lower, and inequality was higher.
+Each of these factors reduced welfare, and according to the table, welfare in Thailand
+was just 10.9 percent of the U.S. value. This pattern is typical of poor countries.
+Other interesting examples are reported in the table. For example, the dire effect of
+AIDS in Botswana and South Africa dramatically reduced their welfare, leading to a life
+expectancy of just over 50 years in these countries and making them much poorer than
+their GDPs indicate.
+Jones and Klenow find important differences between their welfare measure and
+per capita GDP, as we’ve just seen. However, they also find that across more than 100
+countries, welfare and GDP are very highly correlated. So while GDP is far from perfect
+and can certainly be improved, it remains an informative measure of living standards
+across countries.
+2.3 Measuring Changes over Time
+Measuring GDP in any given year is primarily a matter of careful counting. Mea-
+suring how GDP changes over time or comparing GDP between two countries
+is substantially harder. Each process involves separating out changes in prices and
+quantities.
+Economists use the word “nominal” to refer to a measure like GDP when
+prices and quantities have not been separated out and use “real” to refer only to
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 29 PAGE:
+95108_TXT_0029.p1.pdf
+Cyan, Magenta, Yellow, Black
+FOLIO
+29
+SEQUENCE
+53
+18/11/19 11:50 AM
+30 | Chapter 2 Measuring the Macroeconomy
+the actual quantity of goods and services. Nominal and real GDP are related by
+a simple equation:
+nominal GDP= price level × real GDP (2.2)
+If an economy produces 37 cell phones and nothing else, and if the price of each
+is $100, then nominal GDP would equal $3,700, while real GDP would equal
+37 cell phones.
+Nominal GDP can go up either because the price level has gone up or because
+real GDP has gone up. For example, nominal GDP in 2018 in the United States
+was $20.5 trillion and in 1995 only $7.4 trillion. How many more goods and
+services— that is, how much more real GDP— were produced in 2018 than in
+1995?
+What makes this question difficult is that prices have changed over the past
+two decades. It is possible, for example, that all the increase in GDP is accounted
+for by higher prices, and real GDP has not changed. Alternatively, it is equally
+possible that prices haven’t changed at all, and all the increase is explained by an
+increase in the quantity of real GDP. The truth lies somewhere in between, and
+the challenge is to figure out exactly where.
+A Simple Example: Where Real GDP Doesn’t Change
+Imagine a simple economy in which there are two goods, apples and computers.
+Nominal GDP in this economy is the sum of the values of apples and computers
+that are produced:
+nominal GDP= 1price of apples × quantity of apples2
++ 1price of computers × quantity of computers2.
+Suppose that in 2025, an apple costs $1, a computer costs $900, and the economy
+produces 500 apples and 5 computers. Then nominal GDP in this economy is
+$1
+$900
+× 500 apples +
+× 5 computers = $5,000.
+apple
+computer
+These numbers are shown in Table 2.4.
+Now suppose that in 2026, the economy still produces 500 apples and 5 com-
+puters, but an apple now costs $2 while a computer costs $1,000. Nominal GDP
+in 2026 is then
+$2
+$1,000
+× 500 apples +
+× 5 computers = $6,000.
+apple
+computer
+Nominal GDP is higher by $1,000 in 2026, but we know that nothing “real” has
+changed: the economy is producing the same number of apples and computers.
+Here, all the change in nominal GDP occurs because of changes in prices.
+What about real GDP in this economy? In our example of 37 cell phones, real
+GDP was easy to measure: it was just the number of cell phones produced. Here,
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 30 PAGE:
+95108_TXT_0030.p1.pdf
+Cyan, Magenta, Yellow, Black
+FOLIO
+30
+SEQUENCE
+54
+18/11/19 11:50 AM
+2.3 Measuring Changes over Time | 31
+TABLE 2.4
+Real and Nominal GDP in a Simple Economy, 2025–2027
+Percentage change
+2025 2026 2027 2026–2027
+The table shows the
+calculation of real and
+nominal GDP for our
+apple and computer
+example. The question
+marks are entries that
+you will fill in yourself
+in an exercise at the
+end of the chapter.
+Quantity of apples 500 500 550 10.0
+Quantity of computers 5 5 6 20.0
+Price of apples (dollars) 1 2 3 50.0
+Price of computers (dollars) 900 1,000 1,000 0.0
+Nominal GDP 5,000 6,000 7,650 27.5
+Real GDP in 2025 prices 5,000 5,000 ? ?
+Real GDP in 2026 prices 6,000 6,000 7,100 18.3
+Real GDP in 2027 prices ? 6,500 7,650 17.7
+Real GDP in chained prices,
+benchmarked to 2027 ? 6,483 7,650 18.0
+though, things are more complicated because we have two goods. How can we
+construct a summary statistic that adds these two goods together but controls for
+the change in prices that occurred from 2025 to 2026? The answer is that we use
+the same set of prices to compute real GDP in each of the two years— either the
+2025 prices or the 2026 prices. If we use the 2026 prices, we will measure real
+GDP to be $6,000 in both years. If we use the 2025 prices, we will measure
+real GDP to be $5,000 in both years. Both approaches yield the right answer
+that real GDP is unchanged. (The calculations are exactly the same as the ones
+we carried out at the beginning of this section.)
+Notice that, perhaps confusingly, real GDP is measured in dollars, just like
+nominal GDP. This is because there is more than one good in the economy, so we
+can’t just count the number of cell phones produced. To distinguish nominal from
+real variables, we measure nominal variables in “current dollars” and real variables
+in, say, “2026 prices” or “2026 dollars.”
+A Second Example: Where Real GDP Changes
+Now consider an example where real GDP does change. Suppose that in 2027 the
+economy looks like this: an apple costs $3, a computer still costs $1,000, and the
+economy produces 550 apples and 6 computers. If you calculate nominal GDP for
+this economy, you will find that the answer is $7,650 1$6,000 + $1,6502.
+But what about real GDP? Relative to 2026, the economy is producing 50 more
+apples and 1 more computer, so real GDP should be higher, but by how much?
+If we use the 2026 prices, we find that real GDP in 2027 is
+$2
+$1,000
+× 550 apples +
+× 6 computers = $7,100.
+apple
+computer
+Measured in 2026 prices, real GDP in 2026 is equal to nominal GDP, which was
+$6,000. So according to this calculation, real GDP in 2027 is higher by $1,100
+1$7,100− $6,0002, or by 1,100/6,000= 18.3 percent (see Table 2.4).
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 31 PAGE:
+95108_TXT_0031.p1.pdf
+Cyan, Magenta, Yellow, Black
+FOLIO
+31
+SEQUENCE
+55
+18/11/19 11:50 AM
+32 | Chapter 2 Measuring the Macroeconomy
+Alternatively, suppose we compute real GDP using the 2027 prices. Real GDP
+in 2027 is then equal to nominal GDP in 2027, or $7,650. Real GDP in 2026 is
+$3
+$1,000
+× 500 apples +
+× 5 computers = $6,500 1in 2027 prices2.
+apple
+computer
+So using 2027 prices, we find that real GDP is higher in 2027 by $1,150
+1$7,650− $6,5002, or by 1,150/6,500= 17.7 percent.
+This second example, then, reveals that the change in real GDP differs, although
+only slightly, depending on whether we use the initial 2026 prices or the final
+2027 prices.
+Quantity Indexes: Laspeyres, Paasche, and Chain Weighting
+The method of computing the change in real GDP with the initial prices is called
+the Laspeyres index, while the method that uses the final prices is called the
+Paasche index. (To keep these straight, you might remember that the alphabeti-
+cal order of Laspeyres and Paasche corresponds to the initial versus final order.)
+In general, these approaches give different answers, and the size of the difference
+depends on the extent to which relative prices have changed. If we are comparing
+two consecutive years in an economy, then the differences usually aren’t great. But
+if we are comparing real GDP across a long period such as a decade or if we are
+looking at any economy with high inflation, the differences can be substantial.
+A third, preferred, approach to computing real GDP is called the Fisher index,
+or chain weighting. To compute the chain- weighted index of real GDP, first
+compute the Laspeyres and Paasche indexes, then calculate the average of the
+two growth rates. In our Table 2.4 example, this approach gives a growth rate of
+1/2 × 118.3% + 17.7%2= 18.0%. The chain- weighted index therefore says that
+real GDP is 18 percent higher in 2027 than in 2026.9 The level of real chain-
+weighted GDP in 2026 is then computed by finding the level x such that if it
+were to grow at 18 percent, it would equal the 2027 level of GDP. That is,
+x × 11 + 0.1802= 7,650 ⇒ x × 7,650/1.180= 6,483.
+National income accountants would say that real chain- weighted GDP in 2026
+is therefore equal to $6,483. These calculations are reported in the last line of
+Table 2.4.
+Modern national income statisticians generally prefer to use chain weight-
+ing when comparing real GDP over time, particularly when the time period is
+a long one. Why? Suppose we are comparing real GDP in 1960 with real GDP
+in 2020. The Laspeyres index would make the comparison using 1960 prices. In
+1960, computers were extremely expensive relative to apples, so they would get a
+very high weight in this comparison. A Paasche index would make the compari-
+son using 2020 prices, when computers were relatively cheap. Because computer
+output has grown so rapidly, the Laspeyres index (1960 weights) would produce
+9 To be more precise, the Fisher index actually involves taking the geometric average of the “gross” percentage changes
+1i.e., "1.183 × 1.177= 1.1802 to get the 18.0 percent growth rate. As long as relative prices are not changing too
+rapidly, the arithmetic average used in the text will give a similar answer.
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 32 PAGE:
+95108_TXT_0032.p1.pdf
+Cyan, Yellow, Black
+FOLIO
+32
+SEQUENCE
+56
+18/11/19 11:51 AM
+2.3 Measuring Changes over Time | 33
+very fast growth for real GDP, while the Paasche index (2020 weights) would
+produce much slower growth. Chain weighting gives us an average of these two
+extremes and in general provides a more accurate view of how standards of living
+change over time.10
+More generally, real chain- weighted GDP is computed by applying the Fisher
+index on a year- by- year basis. To construct the chain index over the period 1960
+to 2020, we compute real GDP in each year: real GDP in 2020 is computed using
+both the 2019 and the 2020 prices, real GDP in 2019 is computed using both the
+2018 and 2019 prices, and so on. In other words, the 1960 level of real GDP is
+based on prices that were applicable in 1960, while 2020 real GDP is computed
+using prices that were applicable around 2020. Chain weighting therefore produces
+a more accurate portrayal of how real GDP changes over time.
+Price Indexes and Inflation
+For each quantity index— Laspeyres, Paasche, and chain weighting— there is a
+corresponding price index. Recall the basic formula for nominal GDP:
+nominal GDP= price level × real GDP. (2.3)
+In the national accounts, the price level that satisfies this equation is called the
+GDP deflator. This name captures the fact that real GDP can be computed by
+“deflating” nominal GDP; that is, by dividing by the price level. Similar deflators
+exist for the various components of GDP, such as consumption and investment.
+We could compute the percentage change in the price level by applying the
+formula in equation (2.3) in two different years. But there’s a simple mathematical
+trick that makes this even easier; in fact, this trick is just one of the basic rules for
+computing growth rates that we will learn in Chapter 3. The percentage change
+in a mathematical product is approximately equal to the sum of the percentage
+changes of the components. Applying this formula to equation (2.3) means that
+percentage
+percentage
+percentage
+change in
+nominal GDP≈
+change in
++
+change in
+price level
+real GDP.
+We saw above in our simple example that the chain- weighted index of real GDP
+grew at a rate of 18.0 percent between 2026 and 2027. If we compute the change in
+nominal GDP, we discover a change of 27.5 percent. This means that the change in
+the price level between these two periods was 27.5− 18.0= 9.5 percent. Another
+name for the percentage change in the price level is the inflation rate.
+Using Chain- Weighted Data
+The U.S. Department of Commerce introduced chain weighting into the national
+accounts in the late 1990s. One of the main motivations was the fact that relative
+prices for goods that involve semiconductors were falling rapidly. For example, the
+10 See Jack E. Triplett, “Economic Theory and BEA’s Alternative Quantity and Price Indexes,” Survey of Current
+Business (April 1992), pp. 49–52.
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 33 PAGE:
+95108_TXT_0033.p1.pdf
+Cyan, Yellow, Black
+FOLIO
+33
+SEQUENCE
+57
+18/11/19 11:51 AM
+34 | Chapter 2 Measuring the Macroeconomy
+price of computers relative to the price of other nondurable consumer goods has
+fallen at a rate of more than 15 percent per year when you adjust for the improve-
+ments in the quality of computers, like the speed of the processor and the storage
+capacity. In calculating real GDP growth over a period of 5 or 10 years, these
+changes in relative prices are large enough to cause large errors in Laspeyres or
+Paasche indexes. (This is especially true since an increasing fraction of our GDP
+benefits from “Moore’s law,” the assertion by the former CEO of Intel, Gordon
+Moore, that the number of transistors on a computer chip is doubling about every
+18 months.) Chain weighting eliminates these errors.
+The main downside to chain weighting in national accounts is that we must be
+careful when adding together the components of real GDP. Recall that the sum of
+nominal consumption, investment, government purchases, and net exports is equal
+to nominal GDP. Unfortunately, this is not true for the chain- weighted numbers:
+the sum of real chain- weighted consumption, investment, government purchases,
+and net exports does not generally equal real chain- weighted GDP. (The reason
+is that different prices are used in constructing the different components.) The
+important lesson to remember is this: If you are interested in particular shares, like
+the share of investment in GDP, then you want to look at the ratio of nominal vari-
+ables, since the nominal shares will add up. If you are interested in real rates of economic
+growth, then you want to use the chain- weighted real measures.
+C A S E S T U D Y
+The FRED Database
+The Federal Reserve Economic Data database— often called the “FRED” data— is
+a wonderful public resource for economic data. It is very user friendly and can be
+used to answer many factual questions easily and quickly.
+For example, suppose you wish to find data on the GDP deflator as a measure of
+inflation. A quick web search of “FRED data” will take you to the FRED database, hosted
+by the Federal Reserve Bank of St. Louis. And typing “GDP deflator” into the main
+search box on that page will give you a list of data series, the first of which is the “Gross
+Domestic Product: Implicit Price Deflator.” Click on that link, and you will see a time
+series graph of this variable that should look something like Figure 2.4.
+FRED makes it easy to create an inflation rate from this series. Under the “Edit
+Graph” button, click on the “Units” box and select “Percent Change from a Year Ago.”
+You should immediately see something like Figure 2.5. Congratulations!
+FRED has many other useful features— have fun playing around with it. You might
+try searching for the latest data on GDP or the unemployment rate. You can down-
+load the data yourself to explore in a spreadsheet. FRED also has many other useful
+tools— for example, it is possible to combine different series on a single graph, say,
+if you wanted to see what investment as a share of GDP looks like over time in the
+United States.
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 34 PAGE:
+95108_TXT_0034.p1.pdf
+Cyan, Magenta, Yellow, Black
+FOLIO
+34
+SEQUENCE
+58
+18/11/19 11:51 AM
+2.3 Measuring Changes over Time | 35
+FIGURE 2.4
+The Level of the GDP Deflator
+Source: U.S. Bureau of Economic Analysis, Gross Domestic Product: Implicit Price Deflator
+[GDPDEF], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org
+/series/GDPDEF, September 23, 2019.
+FIGURE 2.5
+The Annual Inflation Rate Using the GDP Deflator
+Source: U.S. Bureau of Economic Analysis, Gross Domestic Product: Implicit Price Deflator
+[GDPDEF], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org
+/series/GDPDEF, September 9, 2019.
+Many economists, financial analysts, and consultants use the FRED data on a daily
+basis. You’ll get additional practice as we use the FRED data in various exercises
+throughout the rest of the textbook.
+For more help, visit http://fred.stlouisfed.org and select the “Get Help!” tab, where
+Tutorials and FAQs are available.
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 35 PAGE:
+95108_TXT_0035.p1.pdf
+Cyan, Magenta, Yellow, Black
+FOLIO
+35
+SEQUENCE
+59
+18/11/19 11:51 AM
+36 | Chapter 2 Measuring the Macroeconomy
+2.4 Comparing Economic Performance
+across Countries
+With the help of local statistical agencies, the United Nations assembles national
+income accounts data for nearly every country in the world. With these data,
+economists can make comparisons of GDP across countries and over time. Such
+comparisons are important in helping us answer basic questions like “How large
+is the gap between incomes in the richest and poorest countries?” and “How has
+this gap changed over time?” We will explore these questions in detail in the next
+few chapters.
+When we try to compare GDP across countries, we will need to separate
+quantities and prices as we did with comparisons of GDP over time. Say, for
+example, we want to determine how large China’s economy is in comparison with
+the U.S. economy. The national accounts for the two countries show that U.S. GDP
+was $17.7 trillion in 2017, while China’s GDP was 75.2 trillion yuan (in this case,
+both measured in 2011 prices). The first problem we are confronted with, then, is
+that the countries use different currencies.
+As almost anyone who has traveled internationally knows, there are markets
+that allow you to exchange dollars for yuan, pesos for euros, or rubles for pounds.
+The price at which one of these exchanges occurs is called the exchange rate. For
+example, the exchange rate between the Chinese yuan and the U.S. dollar in 2017
+was about 6.76 yuan per dollar: at the airport in Shanghai, you could receive 6.76
+yuan for every dollar traded (or probably a little bit less, as the company doing the
+exchange takes a commission, and commissions at airports are notoriously high),
+and in San Francisco, you would have to give up 6.76 yuan for every dollar you
+wanted to buy.
+If we use the 2017 exchange rate to convert China’s GDP of 75.2 trillion yuan
+into dollars, we get
+$1
+75.2 trillion yuan ×
+= $11.1 trillion.
+6.76 yuan
+And since U.S. GDP in 2017 was $17.7 trillion, we conclude that China’s economy
+was about 63% of the size of the U.S. economy that year 111.1/17.7= 0.632.
+Is that the final answer? Well, not really. We saw in Section 2.3 that the problem
+comparing GDP over time is that prices might change. If we want a fair com-
+parison, we need to make sure we are applying the same prices in the two periods.
+Otherwise, the quantities of all the goods produced might be the same, and any
+difference we see in GDP might just be due to the different prices.
+Exactly the same problem exists in comparing GDP across different countries.
+To see this more clearly, consider an extreme example in which only a single good,
+rice, is produced in China and the United States. Now suppose that for some rea-
+son rice is less expensive in China than in the United States: at current exchange
+rates, a bag of rice costs $1 in Shanghai but $2 in New York. Even if China and
+the United States produce identical quantities of rice (so that their real GDPs are
+the same), we will find differences in GDP if we use the local prices to compute
+it. The right way to correct for this, as we did over time, is to use a common set
+of prices to calculate real GDP in each country.
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 36 PAGE:
+95108_TXT_0036.p1.pdf
+Cyan, Yellow, Black
+FOLIO
+36
+SEQUENCE
+60
+18/11/19 11:51 AM
+2.4 Comparing Economic Performance across Countries | 37
+= price level U.S.
+price level U.S.
+×
+Recall the equation relating nominal and real GDP:
+nominal GDP= price level × real GDP. (2.4)
+Say we’d like to compute China’s GDP using U.S. prices rather than Chinese prices.
+(We could alternatively compute U.S. GDP using Chinese prices; these are the spa-
+tial equivalents of the Laspeyres and Paasche quantity indexes. In reality, we will use
+international prices, representing the average of world prices.) Here’s how we do this:
+real GDP U.S. prices
+China
+= price level U.S.
+× real GDP China. (2.5)
+For this example, you may find it helpful to think of real GDPChina as being
+measured in kilograms of rice.
+Next, since equation (2.4) tells us that real GDP in China is also equal to
+nominal GDP divided by the price level, we can substitute this result into equa-
+tion (2.5) to get
+real GDP U.S. prices
+China
+nominal GDP dollars
+China
+price level China
+=
+× nominal GDP dollars
+China. (2.6)
+price level China
+That is, to measure China’s GDP in U.S. prices, we need to adjust for the relative
+price level of goods in the United States versus China.
+The United Nations International Comparisons Program collects price data
+from different countries in order to facilitate this comparison. And the Penn World
+Tables data set incorporates these prices to construct measures of real GDP that
+are comparable across countries. These data will be used here and in the remainder
+of the book.11
+According to these data, the rice example is not far from the truth. Goods in
+China, on average, cost about 62.5 percent of goods in the United States. That is, price
+level U.S. / price level China is roughly equal to 1 / 0.625. Therefore, the formula above
+says that real GDP in China is about $17.8 trillion (11.1 / 0.625). In other words,
+at common prices, the Chinese economy is much larger than it first appeared: about
+1 percent larger than the U.S. economy instead of 40 percent smaller! Indeed, as of
+2017, China had the largest economy in the world, as measured by aggregate GDP
+at common prices. This makes sense when you think about it: on a per person basis,
+China is about 4 times poorer than the United States, but it also has about 4 times
+as many people, so the United States and China have roughly the same total GDP.
+In general, rich countries tend to have higher price levels than poor countries.
+The main reason is that the low wage rate in poor countries translates into lower
+prices for goods like haircuts or other services that are difficult to trade or for
+products that involve a retail or distribution channel that uses labor extensively,
+like restaurant meals or clothing. In practice, this means that, as we saw in the
+China– U.S. example, comparisons of GDP based on exchange rates tend to yield
+larger differences across countries than comparisons based on common prices. We
+will explore comparisons like these in much more detail in the coming chapters.
+11 Robert C. Feenstra, Robert Inklaar, and Marcel P. Timmer, “The Next Generation of the Penn World Table,”
+American Economic Review, vol. 105, no. 10 (October 2015), pp. 3150–82, Version 9.1 available for download at
+www.ggdc.net/pwt.
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 37 PAGE:
+95108_TXT_0037.p1.pdf
+Cyan, Yellow, Black
+FOLIO
+37
+SEQUENCE
+61
+18/11/19 11:51 AM
+38 | Chapter 2 Measuring the Macroeconomy
+C H A P T E R R E V I E W
+SUMMARY
+1. National income accounting provides systematic measures of aggregate eco-
+nomic activity. Gross domestic product (GDP) is the key overall measure of
+economic activity in an economy. It can be viewed as total expenditure, total
+income, or total production in an economy.
+2. The expenditure approach to GDP makes use of a fundamental national income
+identity, Y= C + I + G + NX, which says that total spending is the sum of
+spending on consumption, investment, government purchases, and net exports.
+3. A key lesson of the income approach is that labor’s share of GDP is relatively
+stable over time at about two- thirds.
+4. In the production approach, it is only the value of final production that counts.
+Equivalently, GDP is the sum of value added at each stage of production.
+5. Nominal GDP refers to the value of GDP measured in current prices in a
+given year. Real GDP involves computing GDP in two different years using
+the same set of prices. Changes in real GDP therefore reflect changes in actual
+production rather than changes in prices.
+6. Chain weighting allows us to compare real GDP in 1950, for example, with
+real GDP in 2020 by gradually updating the prices: 1950 and 1951 prices are
+used to compare 1950 and 1951 real GDPs, 1951 and 1952 prices are then
+used to compare 1951 and 1952 real GDPs, and so on. By linking the chain
+of comparisons in this way, we construct a more accurate measure of real GDP.
+(If we used 2020 prices to value production in 1950, we’d get a distorted pic-
+ture: telephone service that was extremely valuable and expensive in 1950, for
+example, would be valued according to the cheap modern prices.)
+7. International comparisons of GDP involve two conversions. First, we need
+exchange rates to convert the measures into a common currency. Second, just
+as we need to use common prices to measure real GDP over time, we also need
+to use common prices to compare real GDP across countries.
+KEY CONCEPTS
+capital
+chain weighting
+depreciation
+economic profits
+exchange rate
+expenditure
+GDP deflator
+gross domestic product
+(GDP)
+income
+inflation
+inflation rate
+intellectual property
+products (IPP)
+labor’s share of GDP
+Laspeyres index
+national income identity
+nominal versus real GDP
+Paasche index
+production
+trade balance
+value added
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 38 PAGE:
+95108_TXT_0038.p1.pdf
+Cyan, Magenta, Yellow, Black
+FOLIO
+38
+SEQUENCE
+62
+18/11/19 11:51 AM
+Exercises | 39
+REVIEW QUESTIONS
+1. What is GDP, and why is it a useful measure? What are the most important
+components of GDP in the U.S. economy today?
+2. What are net exports, and how is this concept related to the trade deficit?
+3. What are some problems with using GDP as a measure of overall economic
+welfare?
+4. What is the difference between real and nominal GDP? How do you compare
+GDPs over time within an economy? How do you compare GDPs across dif-
+ferent economies?
+EXERCISES
+*
+1. Real versus nominal GDP (a FRED question): Using the FRED database, locate
+the data on real and nominal GDP for the U.S. economy. You may notice
+that there are both annual and quarterly data (i.e., measures of production
+every 3 months) available. For the purpose of this question, let’s stick with the
+annual data. The easy way to find this is to type “annual nominal GDP” and
+“annual real GDP” into the FRED search box. (For an introduction to FRED,
+see the case study “The FRED Database” earlier in this chaper on page 34.)
+(a) What is the value of real GDP and nominal GDP for the most recent
+year available? Explain why these numbers are different.
+(b) What was the value of real GDP and nominal GDP in 1970?
+(c) By what factor (e.g., a number like 2.0 if it doubled) did real GDP increase
+between 1970 and the most recent year? What about nominal GDP?
+(d) What explains the difference between the two numbers in part (c)?
+2. What counts as GDP (I)? By how much does GDP rise in each of the follow-
+ing scenarios? Explain.
+(a) You spend $5,000 on college tuition this semester.
+(b) You buy a used car from a friend for $2,500.
+(c) The government spends $100 million to build a dam.
+(d) Foreign graduate students work as teaching assistants at the local uni-
+versity and earn $5,000 each.
+3. What counts as GDP (II)? By how much does GDP rise in each of the fol-
+lowing scenarios? Explain.
+(a) A computer company buys parts from a local distributor for $1 million,
+assembles the parts, and sells the resulting computers for $2 million.
+(b) A real estate agent sells a house for $200,000 that the previous owners
+had bought 10 years earlier for $100,000. The agent earns a commission
+of $6,000.
+(c) During a recession, the government raises unemployment benefits by
+$100 million.
+(d) A new U.S. airline purchases and imports $50 million worth of airplanes
+from the European company Airbus.
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 39 PAGE:
+95108_TXT_0039.p1.pdf
+Cyan, Yellow, Black
+FOLIO
+39
+SEQUENCE
+63
+18/11/19 11:51 AM
+40 | Chapter 2 Measuring the Macroeconomy
+4. 5. (e) A new European airline purchases $50 million worth of airplanes from
+the American company Boeing.
+(f ) A store buys $100,000 of chocolate from Belgium and sells it to consumers
+in the United States for $125,000.
+National accounting over time (I): Look back at Table 2.4. Some missing entries
+are labeled with question marks. Compute the values that belong in these
+positions.
+National accounting over time (II): Consider an economy that produces oranges
+and boomerangs. The prices and quantities of these goods in two different
+years are reported in the table below. Fill in the missing entries.
+Percentage change
+2020 2021 2020–2021
+Quantity of oranges 100 105 ?
+Quantity of boomerangs 20 22 ?
+Price of oranges (dollars) 1 1.10 ?
+Price of boomerangs (dollars) 3 3.10 ?
+Nominal GDP ? ? ?
+Real GDP in 2020 prices ? ? ?
+Real GDP in 2021 prices ? ? ?
+Real GDP in chained prices,
+benchmarked to 2021 ? ? ?
+6. Inflation in the orange and boomerang economy: Consider the economy from
+exercise 5. Calculate the inflation rate for the 2025–2027 period using the
+GDP deflator based on the Laspeyres, Paasche, and chain- weighted indexes
+of GDP.
+7. How large is the economy of India? Indian GDP in 2017 was 152 trillion rupees,
+while U.S. GDP was $17.7 trillion. The exchange rate in 2017 was 65.1 rupees
+per dollar. India turns out to have lower prices than the United States (this is
+true more generally for poor countries): the price level in India (converted to
+dollars) divided by the price level in the United States was 0.277 in 2017.
+(a) What is the ratio of Indian GDP to U.S. GDP if we don’t take into
+account the differences in relative prices and simply use the exchange rate
+to make the conversion?
+(b) What is the ratio of real GDP in India to real GDP in the United States
+in common prices?
+(c) Why are these two numbers different?
+8. How large is the economy of Sweden? Swedish GDP in 2017 was 440 billion
+kronor (U.S. GDP was $17.7 trillion). The exchange rate in 2017 was
+8.5 kronor per dollar. Contrary to China and India, however, Sweden had
+higher prices than the United States: the price level in Sweden (converted
+to dollars) divided by the price level in the United States was 1.11 in 2017.
+(a) What is the ratio of Swedish GDP to U.S. GDP if we don’t take into
+account the differences in relative prices and simply use the exchange rate
+to make the conversion?
+rTXT
+95108_INB Nov-25-2019 mikeb
+MACRO5_ptr_ch02_018-041.indd 40 PAGE:
+95108_TXT_0040.p1.pdf
+Cyan, Yellow, Black
+FOLIO
+40
+SEQUENCE
+64
+18/11/19 11:51 AM
+Worked Exercise | 41
+(b) What is the ratio of GDP in Sweden to real GDP in the United States
+in common prices?
+(c) Why are these two numbers different?
+9. Earthquakes and GDP: Suppose the rural part of a country is hit by a major
+earthquake that destroys 10 percent of the country’s housing stock. The gov-
+ernment and private sector respond with a major construction effort to help
+rebuild houses. Discuss how this episode is likely to affect (a) the economic
+well- being of the people in the country and (b) the economy’s measured GDP.
+W O R K E D E X E R C I S E
+2. What counts as GDP (I)?
+(a) GDP rises by the $5,000 amount of your tuition payment. This is the
+purchase of a service (education) that is produced this semester.
+(b) The purchase of used goods does not involve new production. This example
+is just the transfer of an existing good, so GDP is unchanged. If you
+bought the used car from a used- car dealer, the service of selling the car
+would represent new production— so something like $200 of the $2,500
+might be included in GDP.
+(c) The new dam is new production, and the government spending of
+$100 million is counted as GDP. Notice that if the spending were spread
+over several years, then the flow of new production (and GDP) would
+also be spread over time.
+(d) Foreign graduate students working in the United States contribute to
+production that occurs within the United States, and this is included
+in GDP. So GDP goes up by $5,000 for each student.

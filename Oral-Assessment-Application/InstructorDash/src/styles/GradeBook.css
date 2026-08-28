@@ -1,0 +1,231 @@
+@import "./shared.css";
+
+.GradeBook {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: var(--font-sans);
+  color: var(--text-primary);
+}
+
+.BackButton {
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  background: none;
+  border: 1px solid var(--border);
+  padding: 10px 16px;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+  display: inline-block;
+  transition: opacity 0.15s;
+}
+
+.BackButton:hover {
+  opacity: 0.7;
+}
+
+/* ── Header card ── */
+.GradeTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 12px rgba(38, 74, 100, 0.08);
+  padding: 32px;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+}
+
+.Gtitle {
+  margin: 0 0 20px 0;
+  font-size: 1.8rem;
+  font-weight: normal;
+  font-family: var(--font-serif);
+  color: var(--hero);
+  letter-spacing: -0.01em;
+}
+
+.Subtitles {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.Subtitles p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  font-family: var(--font-sans);
+}
+
+.Subtitles span {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* ── Grade display (right side) ── */
+.RightSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.SuggestedText {
+  margin: 0;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  font-family: var(--font-sans);
+}
+
+.LetterGrade {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: normal;
+  font-family: var(--font-serif);
+  color: var(--hero);
+  line-height: 1;
+}
+
+.NumericGrade {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--text-muted);
+  font-family: var(--font-sans);
+}
+
+.EditButton,
+.SaveButton {
+  margin-top: 8px;
+  background: none;
+  border: none;
+  color: var(--hero);
+  font-size: 11px;
+  font-family: var(--font-sans);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+  transition: opacity 0.15s;
+}
+
+.EditButton:hover,
+.SaveButton:hover {
+  opacity: 0.7;
+}
+
+.LetterInput {
+  width: 70px;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 4px;
+  border: 1px solid var(--border);
+  padding: 6px;
+  font-family: var(--font-sans);
+}
+
+.GradeInput {
+  width: 80px;
+  font-size: 1rem;
+  text-align: center;
+  border: 1px solid var(--border);
+  padding: 6px;
+  font-family: var(--font-sans);
+}
+
+/* ── Content row ── */
+.GradeContentRow {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.Transcript {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 12px rgba(38, 74, 100, 0.08);
+  box-sizing: border-box;
+  white-space: pre-wrap;
+  width: 65%;
+  overflow-y: auto;
+  height: 500px;
+}
+
+.Transcript h1,
+.GradingLogs h1,
+.FinalFeed h1 {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: var(--font-serif);
+  color: var(--hero);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.Transcript p {
+  margin: 0;
+  padding: 16px 20px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+}
+
+.GradingLogs {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 12px rgba(38, 74, 100, 0.08);
+  box-sizing: border-box;
+  width: 35%;
+  overflow-y: auto;
+  height: 500px;
+}
+
+.GradingLogs p {
+  margin: 8px 12px;
+  padding: 10px 12px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+}
+
+/* ── Final feedback ── */
+.FinalFeed {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 12px rgba(38, 74, 100, 0.08);
+  box-sizing: border-box;
+  white-space: pre-wrap;
+  width: 100%;
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+.FinalFeed p {
+  margin: 0;
+  padding: 16px 20px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+}

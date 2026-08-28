@@ -1,0 +1,240 @@
+@import "./shared.css";
+
+.Tallys {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.cards {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  min-height: 86px;
+  padding: 16px 20px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  box-shadow: 0 2px 12px rgba(38, 74, 100, 0.08);
+}
+
+.cards h2 {
+  margin: 0 0 0 auto;
+  font-family: var(--font-serif);
+  font-size: 24px;
+  font-weight: normal;
+  color: var(--hero);
+}
+
+.cards p {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.card-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-right h2 {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 24px;
+  font-weight: normal;
+  color: var(--hero);
+}
+
+.CA {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.AssignmentSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 0;
+}
+
+.AssCreation {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 12px rgba(38, 74, 100, 0.08);
+}
+
+.AssCreation h1 {
+  font-size: 20px;
+  font-weight: normal;
+  color: var(--hero);
+  margin: 0 0 20px 0;
+  font-family: var(--font-serif);
+  letter-spacing: -0.01em;
+}
+
+.assignments-box {
+  border: 1px solid var(--border);
+  padding: 20px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(38, 74, 100, 0.08);
+}
+
+.assignments-box .label {
+  margin-bottom: 10px;
+  font-family: var(--font-serif);
+  font-size: 18px;
+  font-weight: normal;
+  color: var(--hero);
+}
+
+.assignments-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-content: flex-start;
+  overflow-y: auto;
+  padding-right: 6px;
+  min-height: 0;
+}
+
+.assignment-item {
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.assignment-item:hover {
+  opacity: 0.8;
+}
+
+.assignment-name {
+  font-size: 12px;
+  font-family: var(--font-sans);
+  color: var(--text-primary);
+  word-break: break-word;
+  margin: 6px 0 0;
+}
+
+.AssCreation h3 {
+    font-size: 18px;
+    font-weight: normal;
+    color: var(--hero);
+    margin: 0 0 20px 0;
+    font-family: var(--font-serif);
+}
+
+.class-item {
+  border: 1px solid var(--border);
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.class-item:last-child {
+  margin-bottom: 0;
+}
+
+.class-item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.class-item-name {
+  font-family: var(--font-serif);
+  font-size: 15px;
+  font-weight: normal;
+  color: var(--hero);
+}
+
+.class-item-count {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+}
+
+.class-item-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.class-students-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.class-students-table thead tr {
+  border-bottom: 1px solid var(--border);
+}
+
+.class-students-table th {
+  padding: 8px 12px;
+  text-align: left;
+  font-size: 11px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--hero);
+}
+
+.class-students-table tbody tr {
+  border-bottom: 1px solid var(--border);
+}
+
+.class-students-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.class-students-table td {
+  padding: 10px 12px;
+  color: var(--text-primary);
+}
+
+.class-add-students {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--border);
+  padding-top: 16px;
+}
+
+.class-textarea {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  border: 1px solid var(--border);
+  padding: 10px 12px;
+  resize: vertical;
+  min-height: 72px;
+  color: var(--text-primary);
+  background: var(--surface);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.class-textarea:focus {
+  outline: none;
+  border-color: var(--hero);
+}

@@ -1,0 +1,18 @@
+services:
+  interview-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - ../../.env
+    volumes:
+      # Edit interview_config.json on your machine — changes take effect on next run.
+      - ./interview_config.json:/app/interview_config.json:ro
+      # Local Whisper STT model cache (avoids re-downloading on every container start).
+      - whisper-cache:/root/.cache/huggingface
+    # --now skips the scheduled-start countdown and launches immediately.
+    # Remove it if you want the bot to wait until the time set in interview_config.json.
+    command: ["--now"]
+
+volumes:
+  whisper-cache:

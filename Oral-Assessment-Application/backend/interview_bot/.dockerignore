@@ -1,0 +1,20 @@
+# Secrets — never bake into the image
+.env
+
+# Local model weights — not used in production (ElevenLabs TTS is used instead)
+kokoro-onnx/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Dev/test artefacts
+test_runner.py
+transcripts/
+*.log
+
+# Git
+.git/
+.gitignore

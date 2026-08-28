@@ -1,0 +1,19 @@
+{
+    "id": 0,
+    "startTime": "2026-05-07T10:00:00+10:00",
+    "status": "string",
+    "transcript": "string",
+    "user": {
+        "studentId": 0,
+        "username": "string"
+    },
+    "rubric": {
+        "id": 0,
+        "rubricContents": "string"
+    },
+    "zoom": {
+        "id": 0,
+        "url": "string",
+        "meetingId": 0
+    }
+}

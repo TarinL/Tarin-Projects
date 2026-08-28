@@ -1,0 +1,115 @@
+{
+  "_comment": "Central configuration for the interview bot. Edit this file to change any interview parameters.",
+  "mode": "manual",
+  "_comment_mode": "Interview mode: 'manual' (instructor-specified required questions), 'submission' (probe the student's own uploaded work), or 'knowledge_base' (formative check against instructor-provided course content). If omitted, the mode is inferred: 'submission' when student_submission is non-empty, otherwise 'manual'.",
+  "student": {
+    "name": "TEST STUDENT",
+    "id": "99999999"
+  },
+  "assignment": {
+    "topic": "Photosynthesis",
+    "name": "Photosynthesis Fundamentals (Known-Good Test)",
+    "rubric": {
+      "Core Process: Inputs and Outputs": {
+        "description": "Student correctly explains the purpose of photosynthesis and identifies the inputs (carbon dioxide, water, light energy) and outputs (glucose, oxygen), ideally referencing the overall balanced equation.",
+        "weight": 30
+      },
+      "Two Stages: Light-Dependent Reactions and the Calvin Cycle": {
+        "description": "Student distinguishes the light-dependent reactions (in the thylakoid membranes, producing ATP and NADPH) from the light-independent Calvin cycle (in the stroma, fixing CO2 into glucose) and explains how they are linked.",
+        "weight": 25
+      },
+      "Role of Pigments and Light Capture": {
+        "description": "Student explains how chlorophyll and accessory pigments absorb light, why plants appear green, and how absorbed light energy is used to excite electrons.",
+        "weight": 20
+      },
+      "Limiting Factors and Rate": {
+        "description": "Student discusses how light intensity, carbon dioxide concentration, and temperature affect the rate of photosynthesis, including the concept of a limiting factor.",
+        "weight": 15
+      },
+      "Connection to Respiration and the Carbon Cycle": {
+        "description": "Student relates photosynthesis to cellular respiration and the wider carbon cycle, showing how the two processes are complementary.",
+        "weight": 10
+      }
+    }
+  },
+  "interview": {
+    "institution_level": "undergraduate university",
+    "formality": "formal",
+    "duration_minutes": 10,
+    "follow_up_depth": 2,
+    "time_per_follow_up_seconds": 30,
+    "closing_buffer_seconds": 30,
+    "warning_seconds_remaining": 180,
+    "_comment_warning": "Warn the interviewee when this many seconds remain. Set to 0 to disable."
+  },
+  "student_submission": "",
+  "_comment_student_submission": "The student's actual submitted work, as plain text. Leave empty for the default content-knowledge interview that mirrors the questions below. Provide a value to switch the bot into submission-focused mode, where it probes the student's understanding of what they submitted and treats the questions as areas of focus.",
+  "knowledge_base": "",
+  "_comment_knowledge_base": "Instructor-provided course content (required readings/notes), as plain text. Used in 'knowledge_base' mode: a lightweight formative check of whether the student engaged with and understood the material. The questions below are treated as lines of questioning / areas of focus over this content. Leave empty when not using knowledge_base mode.",
+  "questions": [
+    {
+      "text": "Ask the student to explain the overall purpose of photosynthesis, including the main inputs and outputs and, if they can, the overall balanced equation.",
+      "weight": 30,
+      "_comment": "Core process"
+    },
+    {
+      "text": "Prompt the student to describe the two main stages of photosynthesis - the light-dependent reactions and the Calvin cycle - including where in the chloroplast each takes place and how they are connected.",
+      "weight": 25,
+      "_comment": "Two stages"
+    },
+    {
+      "text": "Inquire about the role of chlorophyll and other pigments in capturing light energy, why plants appear green, and what happens to the absorbed energy.",
+      "weight": 20,
+      "_comment": "Pigments and light"
+    },
+    {
+      "text": "Ask the student to discuss the factors that affect the rate of photosynthesis - such as light intensity, carbon dioxide concentration, and temperature - and what is meant by a limiting factor.",
+      "weight": 15,
+      "_comment": "Limiting factors"
+    },
+    {
+      "text": "Encourage the student to explain how photosynthesis and cellular respiration are interconnected and how photosynthesis fits into the wider carbon cycle.",
+      "weight": 10,
+      "_comment": "Respiration and carbon cycle"
+    }
+  ],
+  "llm": {
+    "model": "gpt-4o-mini",
+    "base_url": null,
+    "_comment_base_url": "null uses the default OpenAI endpoint. Set to a local URL (e.g. http://127.0.0.1:1234/v1) for a local model.",
+    "api_key": null,
+    "_comment_api_key": "null reads OPENAI_API_KEY from the environment. Set explicitly only for local/alternative providers.",
+    "max_tokens": 120,
+    "temperature": 0.7,
+    "top_p": 1.0
+  },
+  "scheduling": {
+    "student_id": "99999999",
+    "student_email": "test-student@example.com",
+    "_comment_student_email": "Where the Zoom meeting link will be sent",
+    "scheduled_start": "2026-06-15T10:00:00+12:00",
+    "_comment_scheduled_start": "ISO 8601 datetime with timezone offset. trigger.py waits until this time before launching the bot.",
+    "duration_minutes": 10,
+    "_comment_duration_minutes": "Zoom meeting duration. Should be longer than interview duration to avoid auto-close."
+  },
+  "system_prompt": {
+    "additional_instructions": "",
+    "_comment": "Optional extra instructions appended to the generated system prompt"
+  },
+  "audio": {
+    "stt_model": "base.en",
+    "_comment_stt_model": "Whisper model size. Options: tiny.en, base.en, small.en, medium.en (larger = more accurate, slower)",
+    "stt_device": "cpu",
+    "_comment_stt_device": "Device for Whisper inference. Use 'cuda' if you have an NVIDIA GPU",
+    "silence_threshold": 0.01,
+    "_comment_silence_threshold": "RMS energy level below which audio is considered silence. Raise if your mic picks up background noise.",
+    "silence_duration_seconds": 3.0,
+    "_comment_silence_duration": "Seconds of silence after speech ends before recording stops",
+    "elevenlabs_voice_id": "fATgBRI8wg5KkDFg8vBd",
+    "_comment_elevenlabs_voice_id": "ElevenLabs voice ID (not display name). Find IDs at elevenlabs.io/voice-library or via the API. Current = James - British Professional Smooth",
+    "elevenlabs_model": "eleven_turbo_v2_5",
+    "_comment_elevenlabs_model": "ElevenLabs model. eleven_turbo_v2_5 is fastest; eleven_multilingual_v2 is highest quality.",
+    "transcript_provider": "meeting_captions",
+    "_comment_transcript_provider": "recall.ai transcription provider — only used as a fallback. Bot STT uses the raw audio websocket + local Whisper. meeting_captions requires no API key."
+  }
+}

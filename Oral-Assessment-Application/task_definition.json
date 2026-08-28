@@ -1,0 +1,47 @@
+{
+  "family": "interview-bot",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "8192",
+  "memory": "16384",
+  "runtimePlatform": { "cpuArchitecture": "X86_64", "operatingSystemFamily": "LINUX" },
+  "executionRoleArn": "arn:aws:iam::859108043010:role/interview-bot-execution-role",
+  "taskRoleArn": "arn:aws:iam::859108043010:role/interview-bot-task-role",
+  "containerDefinitions": [
+    {
+      "name": "interview-bot",
+      "image": "859108043010.dkr.ecr.ap-southeast-2.amazonaws.com/interview-bot:latest",
+      "essential": true,
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/interview-bot",
+          "awslogs-region": "ap-southeast-2",
+          "awslogs-stream-prefix": "ecs"
+        }
+      },
+      "secrets": [
+        {"name": "OPENAI_API_KEY",     "valueFrom": "arn:aws:secretsmanager:ap-southeast-2:859108043010:secret:OPENAI_API_KEY-rmrsqe"},
+        {"name": "RECALL_API_KEY",     "valueFrom": "arn:aws:secretsmanager:ap-southeast-2:859108043010:secret:RECALL_API_KEY-EJJXrF"},
+        {"name": "ZOOM_ACCOUNT_ID",    "valueFrom": "arn:aws:secretsmanager:ap-southeast-2:859108043010:secret:ZOOM_ACCOUNT_ID-4gURVI"},
+        {"name": "ZOOM_CLIENT_ID",     "valueFrom": "arn:aws:secretsmanager:ap-southeast-2:859108043010:secret:ZOOM_CLIENT_ID-n4UHE8"},
+        {"name": "ZOOM_CLIENT_SECRET", "valueFrom": "arn:aws:secretsmanager:ap-southeast-2:859108043010:secret:ZOOM_CLIENT_SECRET-5t0qAM"},
+        {"name": "ELEVENLABS_API_KEY", "valueFrom": "arn:aws:secretsmanager:ap-southeast-2:859108043010:secret:ELEVENLABS_API_KEY-3WG4RC"},
+        {"name": "SMTP_PASSWORD",      "valueFrom": "arn:aws:secretsmanager:ap-southeast-2:859108043010:secret:SMTP_PASSWORD-QmYLBo"},
+        {"name": "NGROK_AUTH_TOKEN",   "valueFrom": "arn:aws:secretsmanager:ap-southeast-2:859108043010:secret:NGROK_AUTHTOKEN-Q8mAk9"}
+      ],
+      "environment": [
+        {"name": "SMTP_HOST",   "value": "smtp.gmail.com"},
+        {"name": "SMTP_PORT",   "value": "587"},
+        {"name": "SMTP_USER",   "value": "m.i.findlow@gmail.com"},
+        {"name": "EMAIL_FROM",  "value": "Interview Bot <m.i.findlow@gmail.com>"},
+        {"name": "DB_API_BASE_URL", "value": "http://16.176.4.41:5000"},
+        {"name": "LIVE_TRANSCRIBE",     "value": "1"},
+        {"name": "WHISPER_CPU_THREADS", "value": "4"},
+        {"name": "OMP_NUM_THREADS",     "value": "4"},
+        {"name": "OPENBLAS_NUM_THREADS","value": "4"},
+        {"name": "MKL_NUM_THREADS",     "value": "4"}
+      ]
+    }
+  ]
+}
