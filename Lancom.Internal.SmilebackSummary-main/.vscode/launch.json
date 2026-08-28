@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "cwd": "${workspaceFolder}/CSATSummaryEmail",
+            "program": "src/test.mjs"
+        },
+        {
+            "type": "node-terminal",
+            "name": "Run Script: test",
+            "request": "launch",
+            "command": "npm run test",
+            "cwd": "${workspaceFolder}\\CSATSummaryEmail"
+        }
+    ]
+}

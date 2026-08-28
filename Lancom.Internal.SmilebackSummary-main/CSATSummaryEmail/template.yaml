@@ -1,0 +1,56 @@
+
+AWSTemplateFormatVersion: 2010-09-09
+Description: >-
+  CSATSummaryEmail
+
+Transform:
+- AWS::Serverless-2016-10-31
+
+Resources:  
+  ScheduledEventLogger:
+    Type: AWS::Serverless::Function
+    Properties:
+      Description: A Lambda function that logs the payload of messages sent to an associated SQS queue.
+      Runtime: nodejs20.x
+      Architectures:
+        - x86_64
+      Handler: src/handlers/scheduled-event-logger.scheduledEventLoggerHandler
+      CodeUri: ./
+      Events:
+        CloudWatchEvent:
+          Type: Schedule
+          Properties:
+            Schedule: cron(0 18 * * ? *) #6PM Sunday UTC for Monday 7AM NZ time
+      MemorySize: 128
+      Timeout: 100
+      Tags:
+        lancom:department: development
+        lancom:project: CSAT Summary Email
+        lancom:client: internal
+        description: Sends weekly and monthly CSAT summary emails
+      Role: 
+        Fn::GetAtt: 
+          - ScheduledEventLoggerRole
+          - Arn
+
+  # IAM role 
+  ScheduledEventLoggerRole:
+    Type: AWS::IAM::Role
+    Properties: 
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: LambdaExecutionPolicy
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - ses:SendEmail
+                  - ses:SendRawEmail
+                Resource: "*"

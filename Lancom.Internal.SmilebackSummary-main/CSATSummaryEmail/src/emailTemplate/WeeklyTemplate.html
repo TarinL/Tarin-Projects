@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <style>
+        body {
+                font-family: "Montserrat", sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #24d6c1;
+            background-color: white;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #24d6c1;
+        }
+        img {
+            width: 200px;
+        }
+        @media screen and (max-width: 660px) {
+            body {
+                font-size: 12px;
+            }
+            th, td {
+                padding: 5px;
+            }
+        }
+        .heading{
+            border: none;
+        }
+        .noBorder {
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <table class="noBorder">
+        <tr>
+            <td class="noBorder">
+                <img src="https://www.lancom.tech/hubfs/lancom-logo-med-1.png" alt="Lancom lancom" style="float: left">
+            </td>
+            <td class="noBorder" style="text-align: center;" id="title">
+                    <h1>Smileback Weekly Summary</h1>
+                    <h2>{{date}}</h2>
+            </td>
+            <td class="noBorder">
+                <img src="https://d3byjzsy7js43c.cloudfront.net/images/sb-cw-logo-dark.png" alt="Smileback logo" style="float: right">
+            </td>
+        </tr>
+    </table>
+    <div id="Scores">
+        <h2 class="noBorder">Lancom Scores</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <th>
+                        <h2>Lancom's CSAT Score:</h2>
+                    </th>
+                    <td>
+                        <h2>{{lancomWeeklyCsatScore}}</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <th><strong>Positive</strong></th>
+                    <td><strong>{{positiveWeeklyRating}}</strong></td>
+                </tr>
+                <tr>
+                    <th><strong>Neutral</strong></th>
+                    <td><strong>{{neutralWeeklyRating}}</strong></td>
+                </tr>
+                <tr>
+                    <th><strong>Negative</strong></th>
+                    <td><strong>{{negativeWeeklyRating}}</strong></td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="noBorder">Individual scores:</h2>
+        <table>
+            <tbody>               
+                <tr><th>Name</th><th>Positive</th><th>Neutral</th><th>Negative</th><th>Total</th><th>CSAT</th></tr>
+                    {{individualWeeklyScores}}                
+            </tbody>
+        </table>
+    </div>
+    
+    <div id="Comments">
+        <h2 class="noBorder">Comments</h2>
+        <table>
+            <tbody>
+                <th></th><th>Comment</th><th>Commenter</th><th>Company</th><th>Engineer</th>
+                <tr>
+                    <th><strong>Positive</strong></th>
+                    <td>{{positiveComment}}</td>
+                    <td>{{positiveCommenterName}}</td>
+                    <td>{{positiveCompanyName}}</td>
+                    <td>{{positiveCommentEngineer}}</td>
+                </tr>
+                <tr>
+                    <th><strong>Neutral</strong></th>
+                    <td>{{neutralComment}}</td>
+                    <td>{{neutralCommenterName}}</td>
+                    <td>{{neutralCompanyName}}</td>
+                    <td>{{neutralCommentEngineer}}</td>
+                </tr>
+                <tr>
+                    <th><strong>Negative</strong></th>
+                    <td>{{negativeComment}}</td>
+                    <td>{{negativeCommenterName}}</td>
+                    <td>{{negativeCompanyName}}</td>
+                    <td>{{negativeCommentEngineer}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

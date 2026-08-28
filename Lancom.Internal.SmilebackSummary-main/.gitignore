@@ -1,0 +1,6 @@
+
+.idea/
+
+CSATSummaryEmail/.aws-sam/
+
+CSATSummaryEmail/src/emailTemplate/test.js
