@@ -1,0 +1,166 @@
+{% extends "layout.html" %}{% block content %}
+<main id="recipe">
+    <div class="back">
+        {% set back_to_bp = 'browse_bp.browse' %}
+        {% if back_to == 'favourites' %}
+        {% set back_to_bp = 'favourite_bp.favourite' %}
+        {% else %}
+        {% set back_to = 'browse' %}
+        {% endif %}
+        <a href="{{ url_for(back_to_bp, page=1) }}">Back to {{ back_to }}</a>
+    </div>
+    <br>
+    <br>
+    <div id="recipeImage" style="background-image: url('{{ recipe.images[0] }}');">
+{# this might break for in-memory   #}
+        <div class="category">{{ recipe.category.name }}</div>
+    </div>
+    <h1>{{ recipe.name }}</h1>
+    <p><strong>By:</strong> {{ recipe.author.name }}</p>
+    <p><strong>Published:</strong> {{ recipe.date.strftime("%d/%m/%Y") }}</p>
+    {% if recipe.rating %}
+    <div class="star_label">
+        Rating:
+    </div>
+    {% set stars = recipe.rating %}
+    {% include 'stars.html' %}
+    <br>
+    {% else %}
+    <div>
+        Rating: No rating yet
+    </div>
+    {% endif %}
+    <p>{{ recipe.description }}</p>
+    <p>Preparation time: {{ recipe.preparation_time }} minutes / Cook time: {{ recipe.cook_time }} minutes</p>
+    <p>Yield: {{ recipe.recipe_yield }} / {{ recipe.servings }} Servings</p>
+
+    <b>Nutrition Information:</b>
+    <br><br>
+    <div id="nutrition">
+        <div>
+            <b>Cals</b>
+            <p>{{ recipe.nutrition.calories }}Cal</p>
+        </div>
+        <div>
+            <b>Fats</b>
+            <p>{{ recipe.nutrition.fat_content }}g</p>
+        </div>
+        <div>
+            <b>SCFAs</b>
+            <p>{{ recipe.nutrition.saturated_fat_content }}g</p>
+        </div>
+        <div>
+            <b>Cholesterol</b>
+            <p>{{ recipe.nutrition.cholesterol_content }}mg</p>
+        </div>
+        <div>
+            <b>Sodium</b>
+            <p>{{ recipe.nutrition.sodium_content }}mg</p>
+        </div>
+        <div>
+            <b>Carbs</b>
+            <p>{{ recipe.nutrition.carbohydrates_content }}g</p>
+        </div>
+        <div>
+            <b>Sugar</b>
+            <p>{{ recipe.nutrition.sugars_content }}g</p>
+        </div>
+        <div>
+            <b>Protein</b>
+            <p>{{ recipe.nutrition.proteins_content }}g</p>
+        </div>
+        <div>
+            <b>Fibre</b>
+            <p>{{ recipe.nutrition.fiber_content }}g</p>
+        </div>
+    </div>
+    <br>
+    {% if nutrition_info %}
+    <div class="star_label">
+        Nutrition:
+    </div>
+    {% set stars = nutrition_info %}
+    {% include 'stars.html' %}
+    {% else %}
+    <div>
+        Nutrition: Health stars not available
+    </div>
+    {% endif %}
+
+    <h2>Ingredients:</h2>
+    {% set ingredients_length = recipe.ingredients | length %}
+    <table id="ingredients">
+        {% for i in range(ingredients_length) %}
+        <tr>
+            <th style="text-align:right;">{{recipe.ingredient_quantities[i]}}</th>
+            <td style="text-align:left;">{{recipe.ingredients[i]}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <h2>Steps:</h2>
+    <ol>
+        {% for instruction in recipe.instructions %}
+        <li>
+            {{ instruction }}
+        </li>
+        {% endfor %}
+    </ol>
+
+    <!Favorite toggle button-->
+    <form action="{{ url_for('recipe_bp.favorite', recipe_id=recipe.id) }}" method="post">
+        {% if fav_status %}
+        <button type="submit" class="btn-unfavorite">★ Remove Recipe from Your Favourites</button>
+        {% else %}
+        <button type="submit" class="btn-favorite">☆ Add Recipe to Your Favorites</button>
+        {% endif %}
+    </form>
+
+
+    <h2>Reviews</h2>
+    {% if 0 == reviews|length %}
+    <p>there's no reviews here yet. be the first to leave one!</p>
+    {% else %}
+    <div id="reviews">
+        {% for review in reviews %}
+        <div><b>{{ review.user.username }}:</b> "{{ review.comment }}"</div>
+        <div class="review_date">
+            <div class="star_label">
+                <em>{{ review.timestamp.strftime("%y/%m/%d %h:%m") }}</em>
+            </div>
+            <br>
+            {% set stars = review.rating %}
+            {% include 'stars.html' %}
+        </div>
+        <div class="break"></div>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <h2>Add Your Review</h2>
+    <form method="POST" action="{{ url_for('recipe_bp.add_review', recipe_id=recipe.id) }}">
+        {{ review_form.hidden_tag() }}
+        <b>{{ review_form.comment.label }}</b><br>
+        {{ review_form.comment }}
+        <!-- Custom star based input -->
+        <br><br><b>Rating</b><br>
+        <label for="rating_inp" style="margin-left: -10px">
+            <div id="rating_stars"></div>
+        </label>
+        <input style="display: none;" name="rating" id="rating_inp"/>
+        <p>{{ review_form.submit }}</p>
+    </form>
+    <script defer>
+        loaded('rating_stars', 'rating_inp', 0.0);
+    </script>
+
+    <div class="back">
+        {% set back_to_bp = 'browse_bp.browse' %}
+        {% if back_to == 'favourites' %}
+        {% set back_to_bp = 'favourite_bp.favourite' %}
+        {% else %}
+        {% set back_to = 'browse' %}
+        {% endif %}
+        <a href="{{ url_for(back_to_bp, page=1) }}">Back to {{ back_to }}</a>
+    </div>
+</main>
+{% endblock content %}

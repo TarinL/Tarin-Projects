@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>235 Recipe App</title>
+    <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='css/main.css' ) }}"
+    />
+    <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='css/header.css' ) }}"
+    />
+    <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='css/navigation.css' ) }}"
+    />
+    <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='css/recipe.css' ) }}"
+    />
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <script src="{{ url_for('static', filename='js/dropdown.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/stars_input.js') }}"></script>
+</head>
+
+<body>
+<div class="content">
+    <div id="headerNav">
+        {% include 'header.html' %}
+        {% include 'navigation.html' %}
+    </div>
+
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+        {% if profile is defined %}
+            {% include 'profile/sidebar.html' %}
+        {% else %}
+            {% include 'sidebar.html' %}
+        {% endif %}
+
+
+    </div>
+</div>
+{% include 'footer.html' %}
+</body>
+</html>

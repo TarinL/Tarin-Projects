@@ -1,0 +1,107 @@
+{% if search is not defined %}
+{% set search = '' %}
+{% set search_type = 'name' %}
+{% set rating_range = [0,5] %}
+{% set nutrition_range = [0,5] %}
+{% endif %}
+<header id="header">
+    <div class="container">
+        <div>
+            <a href="{{ url_for('home_bp.home') }}">
+                <img id="logo" src="{{ url_for('static', filename='logo.png') }}">
+            </a>
+        </div>
+
+        <form
+                action="{{ url_for('browse_bp.browse') }}"
+                method="get"
+                id="searchbar"
+                class="searchbar"
+        >
+            <input type="text" id="search" name="search" placeholder="What would you like to cook?"
+                   value="{{ search }}">
+            <button type="button" id="filters" onclick="dropdown('filter_drop');">Filters</button>
+            <button type="submit" id="submit">Search</button>
+
+            <!-- Hidden elements copied from proxy form via javascript -->
+            <input class="hidden" type="text" name="search_type" value="{{ search_type }}">
+            <input class="hidden" type="text" name="min_rating" value="{{ rating_range[0] }}">
+            <input class="hidden" type="text" name="max_rating" value="{{ rating_range[1] }}">
+            <input class="hidden" type="text" name="min_nutrition" value="{{ nutrition_range[0] }}">
+            <input class="hidden" type="text" name="max_nutrition" value="{{ nutrition_range[1] }}">
+        </form>
+    </div>
+</header>
+<div class="dropdown hidden" id="filter_drop">
+    <div class="container">
+        <div style="min-width: 113px;"></div>
+        <form id="proxy_form" onchange="proxyFormChanged()">
+            <div class="break" style="text-align: right; padding-top: 1em;">
+                <button type="button" onclick="location.href = '{{ url_for('browse_bp.browse', page=page) }}'">Reset
+                </button>
+                <p id="close_filter_button">
+                    <b onclick="dropdown('filter_drop')">&#10006;</b>
+                </p>
+            </div>
+            <div class="nonbreaking">
+                <label for="search_type" style="padding-right: 1.25em">Search Type:</label>
+                <select id="search_type" name="search_type">
+                    {% if search_type == 'name' %}
+                    <option value="name" selected="selected">Recipe Name</option>
+                    {% else %}
+                    <option value="name">Recipe Name</option>
+                    {% endif %}
+                    {% if search_type == 'category' %}
+                    <option value="category" selected="selected">Category Name</option>
+                    {% else %}
+                    <option value="category">Category Name</option>
+                    {% endif %}
+                    {% if search_type == 'author' %}
+                    <option value="author" selected="selected">Author Name</option>
+                    {% else %}
+                    <option value="author">Author Name</option>
+                    {% endif %}
+                </select>
+            </div>
+
+            <div class="break"></div>
+
+            <div class="nonbreaking">
+                <label for="min_rating" style="padding-right: 2em">Min Rating:</label>
+                <label for="min_rating" style="margin-left: -10px">
+                    <div id="min_rating_stars" class="stars"></div>
+                </label>
+                <input style="display: none;" name="min_rating" id="min_rating"/>
+            </div>
+            <div class="nonbreaking">
+                <label for="max_rating" style="padding-right: 2em">Max Rating:</label>
+                <label for="max_rating" style="margin-left: -10px">
+                    <div id="max_rating_stars" class="stars"></div>
+                </label>
+                <input style="display: none;" name="max_rating" id="max_rating"/>
+            </div>
+
+            <div class="break"></div>
+            <div class="nonbreaking">
+                <label for="min_nutrition" style="padding-right: 1em">Min Nutrition:</label>
+                <label for="min_nutrition" style="margin-left: -10px">
+                    <div id="min_nutrition_stars" class="stars"></div>
+                </label>
+                <input style="display: none;" name="min_nutrition" id="min_nutrition"/>
+            </div>
+            <div class="nonbreaking">
+                <label for="max_nutrition" style="padding-right: 1em">Max Nutrition:</label>
+                <label for="max_nutrition" style="margin-left: -10px">
+                    <div id="max_nutrition_stars" class="stars"></div>
+                </label>
+                <input style="display: none;" name="max_nutrition" id="max_nutrition"/>
+            </div>
+        </form>
+    </div>
+</div>
+<script defer>
+    loaded('min_rating_stars', 'min_rating', 0.0);
+    loaded('max_rating_stars', 'max_rating', 5.0);
+    loaded('min_nutrition_stars', 'min_nutrition', 0.0);
+    loaded('max_nutrition_stars', 'max_nutrition', 5.0);
+</script>

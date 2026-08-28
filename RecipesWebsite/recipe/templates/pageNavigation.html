@@ -1,0 +1,25 @@
+<div id="pageNavigation">
+    {% if not rating_range %}
+    {% set rating_range = [0, 5] %}
+    {% endif %}
+    {% if not nutrition_range %}
+    {% set nutrition_range = [0, 5] %}
+    {% endif %}
+    {% if page > 1 %}
+    <div>
+        <a href="{{ url_for(target_bp, page=1, search=search, search_type=search_type, min_rating=rating_range[0], max_rating=rating_range[1], min_nutrition=nutrition_range[0], max_nutrition=nutrition_range[1]) }}">First</a>
+        <a href="{{ url_for(target_bp, page=(page-1), search=search, search_type=search_type, min_rating=rating_range[0], max_rating=rating_range[1], min_nutrition=nutrition_range[0], max_nutrition=nutrition_range[1]) }}">Previous</a>
+    </div>
+    {% else %}
+    <div></div>
+    {% endif %}
+    <div style="text-align: center;">
+        Page {{ page }} of {{ total_pages }}
+    </div>
+    {% if page < total_pages %}
+    <div style="text-align: right;">
+        <a href="{{ url_for(target_bp, page=(page+1), search=search, search_type=search_type, min_rating=rating_range[0], max_rating=rating_range[1], min_nutrition=nutrition_range[0], max_nutrition=nutrition_range[1]) }}">Next</a>
+        <a href="{{ url_for(target_bp, page=total_pages, search=search, search_type=search_type, min_rating=rating_range[0], max_rating=rating_range[1], min_nutrition=nutrition_range[0], max_nutrition=nutrition_range[1]) }}">Last</a>
+    </div>
+    {% endif %}
+</div>

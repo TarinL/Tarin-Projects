@@ -1,0 +1,15 @@
+<nav id="nav">
+    <ul>
+        <li onclick="location.href = '{{ url_for('home_bp.home') }}'">Home</li>
+        <li onclick="location.href = '{{ url_for('browse_bp.browse') }}'">Browse</li>
+        <li onclick="location.href = '{{ url_for('profile_bp.profile') }}'">My Profile</li>
+    </ul>
+    <ul>
+        {% if 'user_name' in session %}
+        <li onclick="location.href = '{{ url_for('authentication_bp.logout') }}'">Log out</li>
+        {% else %}
+        <li onclick="location.href = '{{ url_for('authentication_bp.login') }}'">Log In</li>
+        <li onclick="location.href = '{{ url_for('authentication_bp.register') }}'">Register</li>
+        {% endif %}
+    </ul>
+</nav>

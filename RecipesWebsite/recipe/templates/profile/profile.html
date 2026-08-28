@@ -1,0 +1,29 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<main id="main">
+    <header>
+        <h1>Your Favourite Recipes</h1>
+    </header>
+
+    {% set back_to = 'profile' %}
+    {% set target_bp = 'profile_bp.profile' %}
+
+    {% if recipes and recipes|length > 0 %}
+    {% include 'pageNavigation.html' %}
+    <br>
+
+    {% set recipe_len = recipes | length %}
+    {% for i in range(recipe_len) %}
+    {% set recipe = recipes[i] %}
+    {% set nutrition_info = health_stars[i] %}
+    {% include 'recipeCard.html' %}
+    {% endfor %}
+
+    <br>
+    {% include 'pageNavigation.html' %}
+    {% else %}
+    <p>You have no favourite recipes yet.</p>
+    {% endif %}
+</main>
+{% endblock content %}

@@ -1,0 +1,19 @@
+<div id="pageNavigation">
+    {% if reviews_page > 1 %}
+    <div>
+        <a href="{{ url_for(target_bp, reviews_page=1) }}">First</a>
+        <a href="{{ url_for(target_bp, reviews_page=(reviews_page-1)) }}">Previous</a>
+    </div>
+    {% else %}
+    <div></div>
+    {% endif %}
+    <div style="text-align: center;">
+        Page {{ reviews_page }} of {{ total_reviews_pages }} reviews
+    </div>
+    {% if reviews_page < total_reviews_pages %}
+    <div style="text-align: right;">
+        <a href="{{ url_for(target_bp, reviews_page=(reviews_page+1)) }}">Next</a>
+        <a href="{{ url_for(target_bp, reviews_page=total_reviews_pages) }}">Last</a>
+    </div>
+    {% endif %}
+</div>

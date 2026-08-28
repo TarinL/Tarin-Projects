@@ -1,0 +1,28 @@
+<aside id="sidebar">
+    <header>
+        <h1>Your Reviews</h1>
+    </header>
+    {% if 0 == reviews|length %}
+    <p>You have no recipe reviews yet!</p>
+    {% else %}
+    {% set target_bp = 'profile_bp.profile' %}
+    {% include 'profile/reviewNavigation.html' %}
+    <br>
+    <div id="reviews">
+        {% for review in reviews %}
+        <div style="height: 0.5em;"><b>{{ review.recipe.name }}</b> by <em>{{ review.recipe.author.name }}:</em></div>
+        <div class="break"></div>
+        <div><b>{{ review.user.username }}:</b> "{{ review.comment }}"</div>
+        <div class="review_date">
+            <div class="star_label">
+                <em>{{ review.timestamp.strftime("%y/%m/%d %h:%m") }}</em>
+            </div>
+            <br>
+            {% set stars = review.rating %}
+            {% include 'stars.html' %}
+        </div>
+        <div class="break"></div>
+        {% endfor %}
+    </div>
+    {% endif %}
+</aside>

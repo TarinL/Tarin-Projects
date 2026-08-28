@@ -1,0 +1,26 @@
+<div class="recipe">
+    <a href="{{ url_for('recipe_bp.recipe', recipe_id=recipe.id, back_to=back_to) }}">
+        <div class="recipeImage" style="background-image: url('{{ recipe.images[0] }}');">
+        {# this might break for in-memory#}
+            <div class="category">{{ recipe.category.name }}</div>
+        </div>
+        <h1 style="text-align: center">{{ recipe.name }} by {{ recipe.author.name }}</h1>
+        {% set desc_len = recipe.description | length %}
+        {% if desc_len > 120 %}
+        <p style="text-align: center">{{ recipe.description[:120] }}...</p>
+        {% else %}
+        <p style="text-align: center">{{ recipe.description }}</p>
+        {% endif %}
+        <div style="text-align: center;">
+            {% if nutrition_info %}
+            <div class="star_label">
+                Nutrition:
+            </div>
+            {% set stars = nutrition_info %}
+            {% include 'stars.html' %}
+            {% else %}
+            Nutrition: Health stars not available
+            {% endif %}
+        </div>
+    </a>
+</div>

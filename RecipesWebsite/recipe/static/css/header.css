@@ -1,0 +1,177 @@
+:root {
+  --header-height: 90px; /* adjust to your header's actual height */
+}
+
+/* --------------------------------- */
+/* -=-=-=-= Header stylings =-=-=-=- */
+#header {
+    position: fixed;
+    height: var(--header-height);
+    background: #fff;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border: 5px solid #F5F5F4;
+}
+
+#header .container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 28px;
+    font-weight: 800;
+    gap: 24px;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 190px;
+    padding: 12px 24px;
+}
+
+#logo {
+    height: 60px;
+    width: auto;
+}
+
+/* ----------------------------------------------------- */
+/* -=-=-=-= Search bar and buttons form styling =-=-=-=- */
+.searchbar {
+    display: flex;
+    align-content: center;
+    flex: 1;
+    font-size: 16px;
+    max-width: 720px;
+    padding: 0;
+}
+
+.searchbar>* {
+    border: 2px solid var(--accent);
+    height: 100%;
+    outline: none;
+    padding: 10px 14px;
+}
+
+.searchbar::placeholder {
+    opacity: .7;
+}
+
+.searchbar>#submit, #filters {
+    max-width: 12%;
+    min-width: 75px;
+    background-color: var(--accent);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.searchbar>#filters {
+    border-radius: 0;
+    border-left-width: 0px;
+}
+
+.searchbar>#submit {
+    border-radius: 0 8px 8px 0;
+}
+
+#search {
+    background: #fff;
+    border-radius: 8px 0 0 8px;
+    flex-grow: 1;
+}
+
+.searchbar #filters:hover, .searchbar #submit:hover {
+    background-color: #012C22 !important;
+}
+
+
+
+/* ---------------------------------------------- */
+/* -=-=-=-= Dropdown filter menu styling =-=-=-=- */
+.dropdown {
+    position: fixed;
+    display: block;
+    width: 100%;
+    pointer-events: none;
+    top: 4.45em;
+}
+
+.dropdown>.container {
+    justify-content: center;
+    max-width: 1200px;
+    min-width: 190px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    padding: 0 24px;
+    pointer-events: none;
+}
+
+.dropdown>.container>form {
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+    padding: 32px 24px;
+    padding-top: 0px;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.25em 1em;
+    font-size: 16px;
+    pointer-events: auto;
+    max-width: 670px;
+    min-width: 284px;
+    flex: 1;
+}
+
+.dropdown>.container>form>.break {
+    flex-basis: 100%;
+}
+
+.dropdown>.container>form>.nonbreaking {
+    min-width: 180px;
+    flex-basis: 40%;
+}
+
+.nonbreaking>input, select {
+    cursor: pointer;
+}
+
+.nonbreaking>select>option {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#close_filter_button {
+    margin-left: 1em;
+    display: inline;
+}
+
+#close_filter_button>b {
+    cursor: pointer;
+}
+
+
+
+/* ----------------------------- */
+/* Login/register button styling */
+#loginButton {
+    border: 1px solid #e0e4e8;
+    background: #fff;
+    color: #111;
+    border-radius: 9999px;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#registerButton {
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 9999px;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 700;
+}

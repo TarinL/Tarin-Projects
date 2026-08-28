@@ -1,0 +1,192 @@
+/* -------------------------------------------- */
+/* -=-=-=-= Browse page recipe styling =-=-=-=- */
+.recipe {
+    background-color: #FAFAF9;
+    border: 3px solid #F5F5F4;
+    border-radius: 1em;
+    padding: 1em;
+    margin-bottom: 1em;
+    font-size: var(--font-size);
+}
+
+.recipe>a {
+    color: black;
+    text-decoration: none;
+}
+
+.recipeImage {
+    /* Recipe image shown on browse page */
+    width: 75%;
+    min-width: 25vw;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 1em;
+    background-size: cover;
+    aspect-ratio: 4/3;
+    background-position: center;
+}
+
+
+
+/* -------------------------------------------------------------- */
+/* -=-=-=-= Category Tag shown in both recipe and browse =-=-=-=- */
+.category {
+    float: right;
+    background-color: var(--accent);
+    color: white;
+    padding: 1em;
+    border-radius: 0em 0em 0em 1em;
+    font-weight: bold;
+    font-size: var(--font-size);
+}
+
+.stars {
+    width: 125px;
+    display: inline-flex;
+    margin-top: 2px;
+}
+
+.star_label {
+    display: inline-block;
+    height: 25px;
+    vertical-align: top;
+    margin-top: 4px;
+}
+
+#rating_stars {
+    display: inline-block;
+    cursor: pointer;
+}
+#rating_stars > * {
+    width: 35px;
+}
+
+
+/* ------------------------------------- */
+/* -=-=-=-= Recipe details page =-=-=-=- */
+#recipe {
+    max-width: 900px;
+    margin: 2em 10%;
+    padding: 1em;
+    background-color: #FAFAF9;
+    border: 3px solid #F5F5F4;
+    border-radius: 1em;
+    font-size: var(--font-size);
+}
+
+@media screen and (max-width: 1000px) {
+    #recipe {
+        margin: 2em 2em;
+    }
+}
+
+#recipe>ul {
+    margin-top: -1em;
+    list-style-type: square;
+}
+
+#recipe>ol {
+    margin-top: -1em;
+}
+
+#recipe>table#nutrition {
+    width: 100%;
+}
+
+#recipe>table#nutrition>th,
+td {
+    padding: 0em 1em;
+    text-align: center;
+}
+
+#recipe>table#ingredients {
+    margin-top: -1em;
+    margin-left: 0.5em;
+}
+
+#recipe>table#ingredients>th, td {
+    padding: 0em 0.25em;
+}
+
+#recipeImage {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 1em;
+    background-size: cover;
+    aspect-ratio: 4/3;
+    background-position: center;
+}
+
+
+.back {
+    margin: auto;
+    align-content: center;
+    display: inline;
+    float: right;
+}
+
+.back>a {
+    color: white;
+    background: var(--accent);
+    border-radius: 0.5em;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+.comment-buttons {
+    margin-top: 1em;
+    text-align: right;
+}
+
+.comment-buttons button {
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+    margin-left: 0.5em;
+    cursor: pointer;
+}
+
+#reviews {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#reviews > div {
+    flex: 1;
+}
+
+#reviews > .review_date {
+    text-align: right;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+#reviews > .break {
+    flex-basis: 100%;
+}
+
+#nutrition {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    column-gap: 2em;
+    row-gap: 1em;
+    width: 75%;
+    margin: auto;
+}
+
+#nutrition > div > p {
+    margin: 0;
+}
+
+textarea#comment {
+    width: 75%;
+}
+
+.btn-favorite, .btn-unfavorite, p #submit {
+    font-size: 18px;
+}

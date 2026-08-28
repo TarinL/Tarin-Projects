@@ -1,0 +1,217 @@
+:root {
+    --accent: #386641;
+    @media screen and (max-width: 1000px) {
+        --font-size: 0.925em;
+    }
+    @media screen and (min-width: 1000px) {
+        --font-size: 1.125em;
+    }
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #FDFDFD;
+  margin: 0;
+}
+
+.content > .container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 177px;
+  overflow: hidden;
+  padding: 0em;
+}
+
+@media screen and (max-width: 1000px) {
+    .content > .container {
+        grid-template-columns: 3fr 1fr;
+    }
+}
+
+main {
+  padding: 1em;
+  min-height: 92.5vh;
+}
+
+main > h1 {
+    font-size: calc(var(--font-size) * 1.5);
+}
+
+#sidebar {
+    margin: 2em;
+    margin-left: 0em;
+    min-width: 250px;
+}
+
+#dailyRecipe {
+    width: calc(100% - 1em);
+    background-color: #FAFAF9;
+    border: 3px solid #F5F5F4;
+    border-radius: 1em;
+    padding: 0 1em;
+}
+
+#dailyRecipe > a {
+    color: black;
+    text-decoration: none;
+}
+
+#dailyRecipe > header > h1 {
+    font-size: calc(var(--font-size) * 2);
+}
+
+#dailyRecipeImage {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 1em;
+  background-size: cover;
+  aspect-ratio: 4/3;
+  background-position: center;
+}
+
+.copyright {
+  color: black;
+  font-size: 0.9em;
+}
+
+
+#mainLogin {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 60px;
+    background: #f4f6f9;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.formwrapper {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.formwrapper .title {
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #222;
+}
+
+.form-field {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-field label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #444;
+    font-size: 14px;
+}
+
+.form-field input {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-field input:focus {
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0 0 4px rgba(74, 144, 226, 0.4);
+}
+
+.errors {
+    margin: 6px 0 0;
+    padding: 8px 10px;
+    list-style: none;
+    border-radius: 6px;
+    background: #ffe5e5;
+    color: #b00020;
+    font-size: 13px;
+}
+
+.formwrapper input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    background: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.1s ease;
+    margin-top: 10px;
+}
+
+.formwrapper input[type="submit"]:hover {
+    background: #357abd;
+}
+
+.formwrapper input[type="submit"]:active {
+    transform: scale(0.98);
+}
+
+.formwrapper input[type="submit"]:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+#headerNav {
+    position: fixed;
+    width: 100%;
+    top: 100px;
+}
+
+footer {
+    padding: 2px;
+    color: white;
+    background-color: #386641;
+    text-align: center;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/homepage.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    max-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(225, 225, 225);
+    text-align: center;
+}
+
+main#main {
+    padding: 1em max(10%, 1em);
+}
+
+main#main > section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}

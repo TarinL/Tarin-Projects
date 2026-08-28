@@ -1,0 +1,57 @@
+:root {
+    @media screen and (max-width: 1000px) {
+        --nav-font-size: 18px;
+        --nav-width: 120px;
+    }
+    @media screen and (min-width: 1000px) {
+        --nav-font-size: 24px;
+        --nav-width: 100%;
+    }
+}
+
+/* --------------------------------------------- */
+/* -=-=-=-= Side navigation bar styling =-=-=-=- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--accent);
+    width: 100%;
+}
+
+nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+nav>ul>li {
+    padding: 1em;
+    color: white;
+    font-size: var(--nav-font-size);
+    cursor: pointer;
+}
+
+nav>ul>li:hover {
+    background-color: #012C22;
+}
+
+/* ------------------------------------------------ */
+/* -=-=-=-= Browse page navigation styling =-=-=-=- */
+#pageNavigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#pageNavigation>div>a {
+    color: white;
+    background: var(--accent);
+    border-radius: 0.5em;
+    padding: 0.5em;
+    margin: 0.25em;
+    text-decoration: none;
+}

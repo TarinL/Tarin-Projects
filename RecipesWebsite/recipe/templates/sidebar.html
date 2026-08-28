@@ -1,0 +1,18 @@
+<aside id="sidebar">
+    <div id="dailyRecipe">
+        <header>
+            <h1>Recipe of the Day</h1>
+        </header>
+
+        {% set r = random_recipe %}
+        {% set imageUrl = r.images[0] if r.images and r.images|length > 0 else url_for('static',
+        filename='img/placeholder.jpg') %}
+
+        <a href="{{ url_for('recipe_bp.recipe', recipe_id=r.id) }}">
+            <div id="dailyRecipeImage" style="background-image: url('{{ imageUrl }}')">
+            </div>
+            <h2>{{ r.name }}</h2>
+            <p>Written by: {{ r.author.name }}</p>
+        </a>
+    </div>
+</aside>

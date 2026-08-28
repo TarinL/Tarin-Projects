@@ -1,0 +1,73 @@
+<body>
+{% extends 'layout.html' %} {% block content %}
+<main id="main">
+    <section class="background">
+        <h1 style="font-size: 45px">Welcome to EJT Recipes</h1>
+        <p>
+            Discover, share, and enjoy delicious recipes from around the
+            world!
+        </p>
+    </section>
+
+    <section class="section1">
+        <div>
+            <h2>About our recipe collection</h2>
+            <p>
+                At ETJ Recipes, we believe cooking should be simple,
+                inspiring, and fun. Whether you’re just starting out in the
+                kitchen or a confident home cook, our collection of recipes
+                will help you discover new flavours and create meals to
+                share with the people you care about.
+            </p>
+            <p>
+                Explore a wide range of dishes, from quick weeknight dinners
+                to special-occasion favourites, all crafted with
+                easy-to-follow instructions and fresh ingredients. Use our
+                search to find exactly what you’re after, or browse through
+                curated categories to spark new ideas.
+            </p>
+            <p>
+                Join our growing community of food lovers, save your
+                favourite recipes, and start building your own personal
+                cookbook today. Cooking at home has never been this
+                enjoyable!
+            </p>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <h3 class="centered">
+                    <a href="{{ url_for('browse_bp.browse') }}" style="color: blue; text-decoration: none;">Browse
+                        Recipes</a>
+                </h3>
+                <p>
+                    Explore our extensive collection of recipes, filtered by
+                    category, ingridients, or cooking time.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <h3 class="centered">
+                    <a href="{{ url_for('authentication_bp.register') }}" style="color: blue; text-decoration: none;">Create
+                        an Account</a>
+                </h3>
+                <p>
+                    Sign up to save your favorite recipes, create your own
+                    recipe collections, and share with others.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <h3 class="centered" style="color: blue">
+                    Rate and Review
+                </h3>
+                <p>
+                    Share your experience with recipes by rating and
+                    reviewing them to help other users.
+                </p>
+            </div>
+        </div>
+    </section>
+</main>
+{% endblock %}
+</body>
